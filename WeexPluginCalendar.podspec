@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.framework  = "UIKit"
   s.dependency "WeexPluginLoader"
   s.dependency "WeexSDK"
+  s.dependency "Masonry"
   s.requires_arc = true
 end
