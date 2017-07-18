@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.0.2)
+  - SocketRocket (0.5.1)
+  - WeexPluginLoader (0.0.4.2):
+    - SocketRocket
+    - WeexSDK
+  - WeexSDK (0.14.0.5):
+    - SocketRocket
+
+DEPENDENCIES:
+  - Masonry
+  - WeexPluginLoader
+  - WeexSDK
+
+SPEC CHECKSUMS:
+  Masonry: 1a8c8de06540777a02c86cc2abfc3950ede7cd22
+  SocketRocket: bf41758b097eef3be73db7bb61c845fe4f3cd9ff
+  WeexPluginLoader: 129597909ce4860b0e142b3761648f05484528c2
+  WeexSDK: 1cb8eb31ce4f18dce12db63a917205aecffd9e86
+
+PODFILE CHECKSUM: 329851255ee861b11dc1961e0418f9b2899f9a07
+
+COCOAPODS: 1.2.1

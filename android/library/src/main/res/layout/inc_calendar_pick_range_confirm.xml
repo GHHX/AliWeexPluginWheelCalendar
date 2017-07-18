@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/container_calendar_multi_picker"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/tv_calendar_multi_picker_confirm"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_calendar_multi_picker_bg"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/btn_confirm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_t_5"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/tv_calendar_multi_picker_confirm"
+        android:background="#50505a"
+        android:paddingBottom="12dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tv_calendar_multi_picker_start"
+            style="@style/MovieproMultiPickerLabel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/calendar_multi_picker_start_label"/>
+
+        <TextView
+            android:id="@+id/tv_calendar_multi_picker_start_value"
+            style="@style/MovieproMultiPickerLabel"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/tv_calendar_multi_picker_start"/>
+
+        <TextView
+            android:id="@+id/tv_calendar_multi_picker_end"
+            style="@style/MovieproMultiPickerLabel"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/calendar_multi_picker_end_label"/>
+
+        <TextView
+            android:id="@+id/tv_calendar_multi_picker_end_value"
+            style="@style/MovieproMultiPickerLabel"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/tv_calendar_multi_picker_end"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

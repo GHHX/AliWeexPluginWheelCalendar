@@ -1,0 +1,88 @@
+<resources>
+
+
+    <style name="CalendarHeaderDay">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textSize">@dimen/font_size_t_4</item>
+        <item name="android:textColor">@color/common_text_3</item>
+    </style>
+
+    <style name="CalendarDay">
+        <item name="android:textSize">@dimen/font_size_t_5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CalendarDay.Normal" parent="CalendarDay">
+        <item name="android:textColor">@color/csl_calendar_day_normal</item>
+    </style>
+
+    <style name="CalendarDay.Festival" parent="CalendarDay">
+        <item name="android:textColor">@color/csl_calendar_day_festival</item>
+    </style>
+
+    <style name="CalendarDay.Future" parent="CalendarDay">
+        <item name="android:textColor">@color/csl_calendar_day_future</item>
+    </style>
+
+    <style name="MovieproTabTextStyle">
+        <item name="android:textSize">@dimen/font_size_t_2</item>
+        <item name="android:textColor">@color/common_text_2</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="MovieproTabStyle">
+        <item name="tabMaxWidth">140dp</item>
+        <item name="tabMinWidth">80dp</item>
+        <item name="tabIndicatorColor">@color/common_main_1</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">@color/white</item>
+        <item name="tabSelectedTextColor">@color/common_main_1</item>
+    </style>
+
+    <style name="MovieproMultiPickerLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_size_t_4</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CalendarPopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_top</item>
+    </style>
+
+
+    <style name="MovieProSegmentRadioButton">
+        <item name="android:minHeight">25dp</item>
+        <item name="android:minWidth">45dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+
+    <!--<style name="MovieproTheme.splash" parent="@style/Theme.AppCompat.Light">-->
+    <!--<item name="android:windowActionBar">false</item>-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="android:windowContentOverlay">@null</item>-->
+    <!--<item name="android:windowAnimationStyle">@style/MovieproAnimation.Default</item>-->
+    <!--<item name="actionBarDivider">@null</item>-->
+    <!--<item name="android:actionBarDivider">@null</item>-->
+    <!--<item name="colorPrimaryDark">@color/transparent</item>-->
+    <!--<item name="colorPrimary">@color/transparent</item>-->
+    <!--<item name="android:splitMotionEvents">false</item>-->
+    <!--<item name="android:windowBackground">@drawable/splash</item>-->
+    <!--</style>-->
+
+
+</resources>

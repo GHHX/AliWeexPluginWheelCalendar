@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divide_line"
+        android:background="@color/calendar_divider"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout_calendar_picker"
+        style="@style/MovieproTabStyle"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        app:tabIndicatorColor="@color/common_main_1"
+        app:tabMode="scrollable"
+        app:tabTextAppearance="@style/MovieproTabTextStyle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divide_line"
+        android:background="@color/calendar_divider"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_calendar_fragmaents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

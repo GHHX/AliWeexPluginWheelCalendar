@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/selector_calendar_right_item_bg"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_calendar_right_title"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:textColor="@color/csl_calendar_week_title"
+        android:textSize="@dimen/font_size_t_2"/>
+
+    <TextView
+        android:id="@+id/tv_calendar_right_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:textColor="@color/csl_calendar_week_subtitle"
+        android:textSize="@dimen/font_size_t_6"/>
+</LinearLayout>

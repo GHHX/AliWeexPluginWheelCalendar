@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--主色调／辅助色-->
+    <color name="common_main_1">#20a5f2</color>
+    <color name="common_main_2">#ff4d64</color>
+    <color name="common_main_3">#ff9020</color>
+
+    <!--文字颜色-->
+    <color name="common_text_1">#333333</color>
+    <color name="common_text_2">#657786</color>
+    <color name="common_text_3">#92a5b2</color>
+    <color name="common_text_4">#a3adb6</color>
+
+    <!--分割线/背景色-->
+    <color name="common_bg_1">#d6dade</color>
+    <color name="common_bg_2">#F5F5F5</color>
+    <color name="common_bg_3">#f3f4f8</color>
+    <color name="common_bg_4">#f9fafb</color>
+    <color name="common_bg_5">#d8d8d8</color>
+
+    <color name="white">#FFffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="alpha_50_black">#7f000000</color>
+
+    <color name="calendar_divider">#e2e2e2</color>
+    <color name="calendar_bg_gray">#f8f8f8</color>
+
+    <color name="calendar_normal">#333333</color>
+    <color name="calendar_today">#20a5f2</color>
+    <color name="calendar_holiday">#fb777d</color><!-- #fd777c -->
+    <color name="calendar_selected">#20a5f2</color>
+    <color name="calendar_range_start">@color/calendar_selected</color>
+    <color name="calendar_range_middle">#ebf5ff</color>
+    <color name="calendar_range_end">@color/calendar_selected</color>
+
+</resources>

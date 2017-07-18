@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.alipictures.moviepro.commonui.widget.titlebar.BaseTitleBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <RelativeLayout
+        android:id="@+id/base_title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/v_base_title_bar_left_holder"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <com.alipictures.moviepro.commonui.widget.IconFontTextView
+                android:id="@+id/v_base_title_bar_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/color_selector_black"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/v_base_title_bar_right_holder"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <com.alipictures.moviepro.commonui.widget.IconFontTextView
+                android:id="@+id/tv_title_bar_right_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:gravity="center_vertical|right"
+                android:maxLines="1"
+                android:paddingLeft="8dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/color_selector_black"
+                android:textSize="18dp" />
+
+            <com.alipictures.moviepro.commonui.widget.IconFontTextView
+                android:id="@+id/tv_title_bar_right_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_toLeftOf="@id/tv_title_bar_right_1"
+                android:clickable="false"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/color_selector_black"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+
+
+        <FrameLayout
+            android:id="@+id/base_title_bar_center_holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/v_base_title_bar_right_holder"
+            android:layout_toRightOf="@id/v_base_title_bar_left_holder">
+
+            <TextView
+                android:id="@+id/tv_base_title_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/common_text_1"
+                android:textSize="@dimen/title_bar_center_text_size" />
+
+            <ImageView
+                android:id="@+id/iv_base_title_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:clickable="false"
+                android:scaleType="centerInside" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v_base_title_bar_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divide_line"
+        android:layout_below="@+id/base_title_bar_layout"
+        android:background="@color/common_bg_1" />
+
+    <TextView
+        android:id="@+id/tv_debug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12dp"
+        android:visibility="gone" />
+</com.alipictures.moviepro.commonui.widget.titlebar.BaseTitleBar>

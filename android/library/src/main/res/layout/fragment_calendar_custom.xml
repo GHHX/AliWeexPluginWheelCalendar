@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/calendar_bg_gray">
+
+
+        <TextView
+            style="@style/CalendarHeaderDay"
+            android:text="日"/>
+
+        <TextView
+            style="@style/CalendarHeaderDay"
+            android:text="一"/>
+
+        <TextView
+            style="@style/CalendarHeaderDay"
+            android:text="二"/>
+
+        <TextView
+            style="@style/CalendarHeaderDay"
+            android:text="三"/>
+
+        <TextView
+            style="@style/CalendarHeaderDay"
+            android:text="四"/>
+
+        <TextView
+            style="@style/CalendarHeaderDay"
+            android:text="五"/>
+
+        <TextView
+            style="@style/CalendarHeaderDay"
+            android:text="六"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+
+        <com.squareup.timessquare.CalendarRecyclerView
+            android:id="@+id/calendar_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:clipToPadding="false"
+            android:scrollbarStyle="outsideOverlay"
+            app:tsquare_dayBackground="@drawable/selector_moviepro_calendar_day_bg"
+            app:tsquare_dayTextColor="@color/csl_moviepro_calendar_text_day"
+            app:tsquare_displayHeader="false"
+            />
+
+        <TextView
+            android:id="@+id/tv_calendar_select_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/shape_round_toast"
+            android:paddingBottom="12dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingTop="12dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_t_4"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+
+    <include
+        layout="@layout/inc_calendar_pick_range_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0"
+
+        />
+
+
+</LinearLayout>
