@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Pod::Spec.new do |s|
-  s.name         = "WeexPluginWheelCalendar"
+  s.name         = "WeexPluginCalendar"
   s.version      = "0.0.1"
   s.summary      = "日历选择器"
   s.description  = <<-DESC
