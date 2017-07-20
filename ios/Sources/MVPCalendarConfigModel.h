@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "MVPCalendarResultModel.h"
-#import "MVPCalenarConfigModel.h"
 
 @interface CalendarConfigModel : NSObject
 
@@ -17,18 +16,15 @@
 @property (assign, nonatomic) int isMult;
 @property (assign, nonatomic) int maxUnit;
 
-+ (instancetype)createModelWithType:(CalendarType)type title:(NSString*)title isMult:(int)isMult maxUnit:(int)maxUnit selModel:(MVPCalendarResultModel*)selModel;
-
 @end
+@class MVPCalenarConfigModel;
 
-@interface MVPCalendarConfigModel : NSObject <NSCopying>
+@interface MVPCalendarConfigModel : NSObject
 
 @property (assign, nonatomic) MVPCalendarBizType bizType;
 @property (assign, nonatomic) CalendarType selectType;
 @property (strong, nonatomic) MVPCalenarConfigModel *bizConfigModel;
 @property (strong, nonatomic) MVPCalendarResultModel *selModel;
 @property (strong, nonatomic) NSMutableArray<CalendarConfigModel *> *configArray;
-- (CalendarConfigModel*)currcentCalendarModel;
-- (CalendarConfigModel*)calendarModelByType:(CalendarType)type;
 
 @end

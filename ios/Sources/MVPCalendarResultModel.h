@@ -53,6 +53,4 @@ typedef NS_ENUM(NSUInteger, MVPCalendarBizType) {
 @property (strong, nonatomic) MVPCalendarModel *startModel;
 @property (strong, nonatomic) MVPCalendarModel *endModel;
 
-+ (instancetype)createModelWithType:(CalendarType)type typeName:(NSString*)typeName startModel:(MVPCalendarModel*)start endModel:(MVPCalendarModel*)end;
-
 @end

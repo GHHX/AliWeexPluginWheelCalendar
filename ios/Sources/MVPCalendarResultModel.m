@@ -68,14 +68,7 @@
 @end
 
 @implementation MVPCalendarResultModel
-+ (instancetype)createModelWithType:(CalendarType)type typeName:(NSString*)typeName startModel:(MVPCalendarModel*)start endModel:(MVPCalendarModel*)end{
-    MVPCalendarResultModel *ret = [MVPCalendarResultModel new];
-    ret.type = type;
-    ret.typeName = typeName;
-    ret.startModel = start;
-    ret.endModel = end;
-    return ret;
-}
+
 
 - (BOOL)isEqual:(MVPCalendarResultModel*)object{
     if (self.type == object.type

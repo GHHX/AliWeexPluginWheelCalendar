@@ -8,113 +8,112 @@
 
 /* Begin PBXBuildFile section */
 		908B5200E64648428498611D /* libPods-WeexPluginCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E50106ACA92665B6B1172 /* libPods-WeexPluginCalendar.a */; };
-		C03AD3631F16070500E2DA2B /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3151F16070500E2DA2B /* FSCalendar+Deprecated.m */; };
-		C03AD3641F16070500E2DA2B /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3161F16070500E2DA2B /* FSCalendar.h */; };
-		C03AD3651F16070500E2DA2B /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3171F16070500E2DA2B /* FSCalendar.m */; };
-		C03AD3661F16070500E2DA2B /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3181F16070500E2DA2B /* FSCalendarAppearance.h */; };
-		C03AD3671F16070500E2DA2B /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3191F16070500E2DA2B /* FSCalendarAppearance.m */; };
-		C03AD3681F16070500E2DA2B /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD31A1F16070500E2DA2B /* FSCalendarCalculator.h */; };
-		C03AD3691F16070500E2DA2B /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD31B1F16070500E2DA2B /* FSCalendarCalculator.m */; };
-		C03AD36A1F16070500E2DA2B /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD31C1F16070500E2DA2B /* FSCalendarCell.h */; };
-		C03AD36B1F16070500E2DA2B /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD31D1F16070500E2DA2B /* FSCalendarCell.m */; };
-		C03AD36C1F16070500E2DA2B /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD31E1F16070500E2DA2B /* FSCalendarCollectionView.h */; };
-		C03AD36D1F16070500E2DA2B /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD31F1F16070500E2DA2B /* FSCalendarCollectionView.m */; };
-		C03AD36E1F16070500E2DA2B /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3201F16070500E2DA2B /* FSCalendarCollectionViewLayout.h */; };
-		C03AD36F1F16070500E2DA2B /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3211F16070500E2DA2B /* FSCalendarCollectionViewLayout.m */; };
-		C03AD3701F16070500E2DA2B /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3221F16070500E2DA2B /* FSCalendarConstants.h */; };
-		C03AD3711F16070500E2DA2B /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3231F16070500E2DA2B /* FSCalendarConstants.m */; };
-		C03AD3721F16070500E2DA2B /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3241F16070500E2DA2B /* FSCalendarDelegationFactory.h */; };
-		C03AD3731F16070500E2DA2B /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3251F16070500E2DA2B /* FSCalendarDelegationFactory.m */; };
-		C03AD3741F16070500E2DA2B /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3261F16070500E2DA2B /* FSCalendarDelegationProxy.h */; };
-		C03AD3751F16070500E2DA2B /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3271F16070500E2DA2B /* FSCalendarDelegationProxy.m */; };
-		C03AD3761F16070500E2DA2B /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3281F16070500E2DA2B /* FSCalendarDynamicHeader.h */; };
-		C03AD3771F16070500E2DA2B /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3291F16070500E2DA2B /* FSCalendarExtensions.h */; };
-		C03AD3781F16070500E2DA2B /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD32A1F16070500E2DA2B /* FSCalendarExtensions.m */; };
-		C03AD3791F16070500E2DA2B /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD32B1F16070500E2DA2B /* FSCalendarHeaderView.h */; };
-		C03AD37A1F16070500E2DA2B /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD32C1F16070500E2DA2B /* FSCalendarHeaderView.m */; };
-		C03AD37B1F16070500E2DA2B /* FSCalendarScopeHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD32D1F16070500E2DA2B /* FSCalendarScopeHandle.h */; };
-		C03AD37C1F16070500E2DA2B /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD32E1F16070500E2DA2B /* FSCalendarScopeHandle.m */; };
-		C03AD37D1F16070500E2DA2B /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD32F1F16070500E2DA2B /* FSCalendarStickyHeader.h */; };
-		C03AD37E1F16070500E2DA2B /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3301F16070500E2DA2B /* FSCalendarStickyHeader.m */; };
-		C03AD37F1F16070500E2DA2B /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3311F16070500E2DA2B /* FSCalendarTransitionCoordinator.h */; };
-		C03AD3801F16070500E2DA2B /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3321F16070500E2DA2B /* FSCalendarTransitionCoordinator.m */; };
-		C03AD3811F16070500E2DA2B /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3331F16070500E2DA2B /* FSCalendarWeekdayView.h */; };
-		C03AD3821F16070500E2DA2B /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3341F16070500E2DA2B /* FSCalendarWeekdayView.m */; };
-		C03AD3831F16070500E2DA2B /* MVPCalendarConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3361F16070500E2DA2B /* MVPCalendarConfigModel.h */; };
-		C03AD3841F16070500E2DA2B /* MVPCalendarConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3371F16070500E2DA2B /* MVPCalendarConfigModel.m */; };
-		C03AD3851F16070500E2DA2B /* MVPCalendarResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3381F16070500E2DA2B /* MVPCalendarResultModel.h */; };
-		C03AD3861F16070500E2DA2B /* MVPCalendarResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3391F16070500E2DA2B /* MVPCalendarResultModel.m */; };
-		C03AD3871F16070500E2DA2B /* MVPScheduleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD33A1F16070500E2DA2B /* MVPScheduleModel.h */; };
-		C03AD3881F16070500E2DA2B /* MVPScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD33B1F16070500E2DA2B /* MVPScheduleModel.m */; };
-		C03AD3891F16070500E2DA2B /* MVPScopeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD33C1F16070500E2DA2B /* MVPScopeModel.h */; };
-		C03AD38A1F16070500E2DA2B /* MVPScopeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD33D1F16070500E2DA2B /* MVPScopeModel.m */; };
-		C03AD38D1F16070500E2DA2B /* MVPCalendarCustomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3401F16070500E2DA2B /* MVPCalendarCustomViewController.h */; };
-		C03AD38E1F16070500E2DA2B /* MVPCalendarCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3411F16070500E2DA2B /* MVPCalendarCustomViewController.m */; };
-		C03AD38F1F16070500E2DA2B /* MVPCalendarMonthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3421F16070500E2DA2B /* MVPCalendarMonthViewController.h */; };
-		C03AD3901F16070500E2DA2B /* MVPCalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3431F16070500E2DA2B /* MVPCalendarMonthViewController.m */; };
-		C03AD3911F16070500E2DA2B /* MVPCalendarRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3441F16070500E2DA2B /* MVPCalendarRootViewController.h */; };
-		C03AD3921F16070500E2DA2B /* MVPCalendarRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3451F16070500E2DA2B /* MVPCalendarRootViewController.m */; };
-		C03AD3951F16070500E2DA2B /* MVPCalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3481F16070500E2DA2B /* MVPCalendarViewController.h */; };
-		C03AD3961F16070500E2DA2B /* MVPCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3491F16070500E2DA2B /* MVPCalendarViewController.m */; };
-		C03AD3971F16070500E2DA2B /* MVPCalendarWeekViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD34A1F16070500E2DA2B /* MVPCalendarWeekViewController.h */; };
-		C03AD3981F16070500E2DA2B /* MVPCalendarWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD34B1F16070500E2DA2B /* MVPCalendarWeekViewController.m */; };
-		C03AD3991F16070500E2DA2B /* MVPCalendarYearViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD34C1F16070500E2DA2B /* MVPCalendarYearViewController.h */; };
-		C03AD39A1F16070500E2DA2B /* MVPCalendarYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD34D1F16070500E2DA2B /* MVPCalendarYearViewController.m */; };
-		C03AD39B1F16070500E2DA2B /* MVPYearRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD34E1F16070500E2DA2B /* MVPYearRow.h */; };
-		C03AD39C1F16070500E2DA2B /* MVPYearRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD34F1F16070500E2DA2B /* MVPYearRow.m */; };
-		C03AD39D1F16070500E2DA2B /* MVPCalendarDataSourceTools.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3511F16070500E2DA2B /* MVPCalendarDataSourceTools.h */; };
-		C03AD39E1F16070500E2DA2B /* MVPCalendarDataSourceTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3521F16070500E2DA2B /* MVPCalendarDataSourceTools.m */; };
-		C03AD3A11F16070500E2DA2B /* MVPCalendarTransformFestival.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3551F16070500E2DA2B /* MVPCalendarTransformFestival.h */; };
-		C03AD3A21F16070500E2DA2B /* MVPCalendarTransformFestival.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3561F16070500E2DA2B /* MVPCalendarTransformFestival.m */; };
-		C03AD3A31F16070500E2DA2B /* DIYCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3581F16070500E2DA2B /* DIYCalendarCell.h */; };
-		C03AD3A41F16070500E2DA2B /* DIYCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3591F16070500E2DA2B /* DIYCalendarCell.m */; };
-		C03AD3A51F16070500E2DA2B /* MVPConfirmMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD35A1F16070500E2DA2B /* MVPConfirmMenuView.h */; };
-		C03AD3A61F16070500E2DA2B /* MVPConfirmMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD35B1F16070500E2DA2B /* MVPConfirmMenuView.m */; };
-		C03AD3A71F16070500E2DA2B /* MVPWeekTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD35C1F16070500E2DA2B /* MVPWeekTitleView.h */; };
-		C03AD3A81F16070500E2DA2B /* MVPWeekTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD35D1F16070500E2DA2B /* MVPWeekTitleView.m */; };
-		C03AD3A91F16070500E2DA2B /* MVPYearCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD35E1F16070500E2DA2B /* MVPYearCell.h */; };
-		C03AD3AA1F16070500E2DA2B /* MVPYearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD35F1F16070500E2DA2B /* MVPYearCell.m */; };
-		C03AD3AB1F16070500E2DA2B /* MVPYearCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03AD3601F16070500E2DA2B /* MVPYearCell.xib */; };
-		C03AD3AC1F16070500E2DA2B /* MVPYearSection.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3611F16070500E2DA2B /* MVPYearSection.h */; };
-		C03AD3AD1F16070500E2DA2B /* MVPYearSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3621F16070500E2DA2B /* MVPYearSection.m */; };
-		C03AD3B01F16083C00E2DA2B /* MVPCalenarConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3AE1F16083C00E2DA2B /* MVPCalenarConfigModel.h */; };
-		C03AD3B11F16083C00E2DA2B /* MVPCalenarConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3AF1F16083C00E2DA2B /* MVPCalenarConfigModel.m */; };
-		C03AD3B41F160CBF00E2DA2B /* MVPCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3B21F160CBF00E2DA2B /* MVPCommonUtils.h */; };
-		C03AD3B51F160CBF00E2DA2B /* MVPCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3B31F160CBF00E2DA2B /* MVPCommonUtils.m */; };
-		C03AD3CB1F160EF200E2DA2B /* MVBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3B71F160EF200E2DA2B /* MVBaseTableViewCell.h */; };
-		C03AD3CC1F160EF200E2DA2B /* MVBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3B81F160EF200E2DA2B /* MVBaseTableViewCell.m */; };
-		C03AD3CD1F160EF200E2DA2B /* MVNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3B91F160EF200E2DA2B /* MVNode.h */; };
-		C03AD3CE1F160EF200E2DA2B /* MVNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3BA1F160EF200E2DA2B /* MVNode.m */; };
-		C03AD3CF1F160EF200E2DA2B /* MVPExtTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3BB1F160EF200E2DA2B /* MVPExtTableRow.h */; };
-		C03AD3D01F160EF200E2DA2B /* MVPExtTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3BC1F160EF200E2DA2B /* MVPExtTableRow.m */; };
-		C03AD3D11F160EF200E2DA2B /* MVTableBaseRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3BD1F160EF200E2DA2B /* MVTableBaseRow.h */; };
-		C03AD3D21F160EF200E2DA2B /* MVTableBaseRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3BE1F160EF200E2DA2B /* MVTableBaseRow.m */; };
-		C03AD3D31F160EF200E2DA2B /* MVTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3BF1F160EF200E2DA2B /* MVTableRow.h */; };
-		C03AD3D41F160EF200E2DA2B /* MVTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3C01F160EF200E2DA2B /* MVTableRow.m */; };
-		C03AD3D51F160EF200E2DA2B /* MVTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3C11F160EF200E2DA2B /* MVTableSection.h */; };
-		C03AD3D61F160EF200E2DA2B /* MVTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3C21F160EF200E2DA2B /* MVTableSection.m */; };
-		C03AD3D71F160EF200E2DA2B /* MVTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3C31F160EF200E2DA2B /* MVTableView.h */; };
-		C03AD3D81F160EF200E2DA2B /* MVTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3C41F160EF200E2DA2B /* MVTableView.m */; };
-		C03AD3D91F160EF200E2DA2B /* MVTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3C51F160EF200E2DA2B /* MVTableViewDataSource.h */; };
-		C03AD3DA1F160EF200E2DA2B /* MVTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3C61F160EF200E2DA2B /* MVTableViewDataSource.m */; };
-		C03AD3DB1F160EF200E2DA2B /* MVTableViewDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3C71F160EF200E2DA2B /* MVTableViewDelegateProxy.h */; };
-		C03AD3DC1F160EF200E2DA2B /* MVTableViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3C81F160EF200E2DA2B /* MVTableViewDelegateProxy.m */; };
-		C03AD3DD1F160EF200E2DA2B /* MVXibBasedTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3C91F160EF200E2DA2B /* MVXibBasedTableRow.h */; };
-		C03AD3DE1F160EF200E2DA2B /* MVXibBasedTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3CA1F160EF200E2DA2B /* MVXibBasedTableRow.m */; };
-		C03AD3E31F16100F00E2DA2B /* NSArray+SHYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3DF1F16100F00E2DA2B /* NSArray+SHYUtil.h */; };
-		C03AD3E41F16100F00E2DA2B /* NSArray+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3E01F16100F00E2DA2B /* NSArray+SHYUtil.m */; };
-		C03AD3E91F161A0E00E2DA2B /* MVPCalendarShadeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3E71F161A0E00E2DA2B /* MVPCalendarShadeView.h */; };
-		C03AD3EA1F161A0E00E2DA2B /* MVPCalendarShadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3E81F161A0E00E2DA2B /* MVPCalendarShadeView.m */; };
-		C03AD3ED1F161A7300E2DA2B /* UIColor+SHYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3EB1F161A7300E2DA2B /* UIColor+SHYUtil.h */; };
-		C03AD3EE1F161A7300E2DA2B /* UIColor+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3EC1F161A7300E2DA2B /* UIColor+SHYUtil.m */; };
-		C03AD3F41F17123900E2DA2B /* MVSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3F01F17123900E2DA2B /* MVSegmentControl.h */; };
-		C03AD3F51F17123900E2DA2B /* MVSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3F11F17123900E2DA2B /* MVSegmentControl.m */; };
-		C03AD3F61F17123900E2DA2B /* MVSmoothSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3F21F17123900E2DA2B /* MVSmoothSegmentControl.h */; };
-		C03AD3F71F17123900E2DA2B /* MVSmoothSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3F31F17123900E2DA2B /* MVSmoothSegmentControl.m */; };
-		C03AD5761F1768DC00E2DA2B /* NSString+SHYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD5741F1768DC00E2DA2B /* NSString+SHYUtil.h */; };
-		C03AD5771F1768DC00E2DA2B /* NSString+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD5751F1768DC00E2DA2B /* NSString+SHYUtil.m */; };
+		C046D76E1F20A160002B6824 /* DIYCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7061F20A15F002B6824 /* DIYCalendarCell.h */; };
+		C046D76F1F20A160002B6824 /* DIYCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7071F20A15F002B6824 /* DIYCalendarCell.m */; };
+		C046D7701F20A160002B6824 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7081F20A15F002B6824 /* FSCalendar.h */; };
+		C046D7711F20A160002B6824 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7091F20A15F002B6824 /* FSCalendar.m */; };
+		C046D7721F20A160002B6824 /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D70A1F20A15F002B6824 /* FSCalendar+Deprecated.m */; };
+		C046D7731F20A160002B6824 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D70B1F20A15F002B6824 /* FSCalendarAppearance.h */; };
+		C046D7741F20A160002B6824 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D70C1F20A15F002B6824 /* FSCalendarAppearance.m */; };
+		C046D7751F20A160002B6824 /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D70D1F20A15F002B6824 /* FSCalendarCalculator.h */; };
+		C046D7761F20A160002B6824 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D70E1F20A15F002B6824 /* FSCalendarCalculator.m */; };
+		C046D7771F20A160002B6824 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D70F1F20A15F002B6824 /* FSCalendarCell.h */; };
+		C046D7781F20A160002B6824 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7101F20A15F002B6824 /* FSCalendarCell.m */; };
+		C046D7791F20A160002B6824 /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7111F20A15F002B6824 /* FSCalendarCollectionView.h */; };
+		C046D77A1F20A160002B6824 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7121F20A15F002B6824 /* FSCalendarCollectionView.m */; };
+		C046D77B1F20A160002B6824 /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7131F20A15F002B6824 /* FSCalendarCollectionViewLayout.h */; };
+		C046D77C1F20A160002B6824 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7141F20A15F002B6824 /* FSCalendarCollectionViewLayout.m */; };
+		C046D77D1F20A160002B6824 /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7151F20A15F002B6824 /* FSCalendarConstants.h */; };
+		C046D77E1F20A160002B6824 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7161F20A15F002B6824 /* FSCalendarConstants.m */; };
+		C046D77F1F20A160002B6824 /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7171F20A15F002B6824 /* FSCalendarDelegationFactory.h */; };
+		C046D7801F20A160002B6824 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7181F20A15F002B6824 /* FSCalendarDelegationFactory.m */; };
+		C046D7811F20A160002B6824 /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7191F20A15F002B6824 /* FSCalendarDelegationProxy.h */; };
+		C046D7821F20A160002B6824 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D71A1F20A15F002B6824 /* FSCalendarDelegationProxy.m */; };
+		C046D7831F20A160002B6824 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D71B1F20A160002B6824 /* FSCalendarDynamicHeader.h */; };
+		C046D7841F20A160002B6824 /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D71C1F20A160002B6824 /* FSCalendarExtensions.h */; };
+		C046D7851F20A160002B6824 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D71D1F20A160002B6824 /* FSCalendarExtensions.m */; };
+		C046D7861F20A160002B6824 /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D71E1F20A160002B6824 /* FSCalendarHeaderView.h */; };
+		C046D7871F20A160002B6824 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D71F1F20A160002B6824 /* FSCalendarHeaderView.m */; };
+		C046D7881F20A160002B6824 /* FSCalendarScopeHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7201F20A160002B6824 /* FSCalendarScopeHandle.h */; };
+		C046D7891F20A160002B6824 /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7211F20A160002B6824 /* FSCalendarScopeHandle.m */; };
+		C046D78A1F20A160002B6824 /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7221F20A160002B6824 /* FSCalendarStickyHeader.h */; };
+		C046D78B1F20A160002B6824 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7231F20A160002B6824 /* FSCalendarStickyHeader.m */; };
+		C046D78C1F20A160002B6824 /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7241F20A160002B6824 /* FSCalendarTransitionCoordinator.h */; };
+		C046D78D1F20A160002B6824 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7251F20A160002B6824 /* FSCalendarTransitionCoordinator.m */; };
+		C046D78E1F20A160002B6824 /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7261F20A160002B6824 /* FSCalendarWeekdayView.h */; };
+		C046D78F1F20A160002B6824 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7271F20A160002B6824 /* FSCalendarWeekdayView.m */; };
+		C046D7901F20A160002B6824 /* MVBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7281F20A160002B6824 /* MVBaseTableViewCell.h */; };
+		C046D7911F20A160002B6824 /* MVBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7291F20A160002B6824 /* MVBaseTableViewCell.m */; };
+		C046D7921F20A160002B6824 /* MVNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D72A1F20A160002B6824 /* MVNode.h */; };
+		C046D7931F20A160002B6824 /* MVNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D72B1F20A160002B6824 /* MVNode.m */; };
+		C046D7941F20A160002B6824 /* MVPCalenarConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D72C1F20A160002B6824 /* MVPCalenarConfigModel.h */; };
+		C046D7951F20A160002B6824 /* MVPCalenarConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D72D1F20A160002B6824 /* MVPCalenarConfigModel.m */; };
+		C046D7961F20A160002B6824 /* MVPCalendarConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D72E1F20A160002B6824 /* MVPCalendarConfigModel.h */; };
+		C046D7971F20A160002B6824 /* MVPCalendarConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D72F1F20A160002B6824 /* MVPCalendarConfigModel.m */; };
+		C046D7981F20A160002B6824 /* MVPCalendarCustomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7301F20A160002B6824 /* MVPCalendarCustomViewController.h */; };
+		C046D7991F20A160002B6824 /* MVPCalendarCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7311F20A160002B6824 /* MVPCalendarCustomViewController.m */; };
+		C046D79A1F20A160002B6824 /* MVPCalendarDataSourceTools.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7321F20A160002B6824 /* MVPCalendarDataSourceTools.h */; };
+		C046D79B1F20A160002B6824 /* MVPCalendarDataSourceTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7331F20A160002B6824 /* MVPCalendarDataSourceTools.m */; };
+		C046D79C1F20A160002B6824 /* MVPCalendarMonthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7341F20A160002B6824 /* MVPCalendarMonthViewController.h */; };
+		C046D79D1F20A160002B6824 /* MVPCalendarMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7351F20A160002B6824 /* MVPCalendarMonthViewController.m */; };
+		C046D79E1F20A160002B6824 /* MVPCalendarResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7361F20A160002B6824 /* MVPCalendarResultModel.h */; };
+		C046D79F1F20A160002B6824 /* MVPCalendarResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7371F20A160002B6824 /* MVPCalendarResultModel.m */; };
+		C046D7A01F20A160002B6824 /* MVPCalendarRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7381F20A160002B6824 /* MVPCalendarRootViewController.h */; };
+		C046D7A11F20A160002B6824 /* MVPCalendarRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7391F20A160002B6824 /* MVPCalendarRootViewController.m */; };
+		C046D7A21F20A160002B6824 /* MVPCalendarShadeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D73A1F20A160002B6824 /* MVPCalendarShadeView.h */; };
+		C046D7A31F20A160002B6824 /* MVPCalendarShadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D73B1F20A160002B6824 /* MVPCalendarShadeView.m */; };
+		C046D7A41F20A160002B6824 /* MVPCalendarTransformFestival.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D73C1F20A160002B6824 /* MVPCalendarTransformFestival.h */; };
+		C046D7A51F20A160002B6824 /* MVPCalendarTransformFestival.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D73D1F20A160002B6824 /* MVPCalendarTransformFestival.m */; };
+		C046D7A61F20A160002B6824 /* MVPCalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D73E1F20A160002B6824 /* MVPCalendarViewController.h */; };
+		C046D7A71F20A160002B6824 /* MVPCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D73F1F20A160002B6824 /* MVPCalendarViewController.m */; };
+		C046D7A81F20A160002B6824 /* MVPCalendarWeekViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7401F20A160002B6824 /* MVPCalendarWeekViewController.h */; };
+		C046D7A91F20A160002B6824 /* MVPCalendarWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7411F20A160002B6824 /* MVPCalendarWeekViewController.m */; };
+		C046D7AA1F20A160002B6824 /* MVPCalendarYearViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7421F20A160002B6824 /* MVPCalendarYearViewController.h */; };
+		C046D7AB1F20A160002B6824 /* MVPCalendarYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7431F20A160002B6824 /* MVPCalendarYearViewController.m */; };
+		C046D7AC1F20A160002B6824 /* MVPCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7441F20A160002B6824 /* MVPCommonUtils.h */; };
+		C046D7AD1F20A160002B6824 /* MVPCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7451F20A160002B6824 /* MVPCommonUtils.m */; };
+		C046D7AE1F20A160002B6824 /* MVPConfirmMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7461F20A160002B6824 /* MVPConfirmMenuView.h */; };
+		C046D7AF1F20A160002B6824 /* MVPConfirmMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7471F20A160002B6824 /* MVPConfirmMenuView.m */; };
+		C046D7B01F20A160002B6824 /* MVPExtTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7481F20A160002B6824 /* MVPExtTableRow.h */; };
+		C046D7B11F20A160002B6824 /* MVPExtTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7491F20A160002B6824 /* MVPExtTableRow.m */; };
+		C046D7B21F20A160002B6824 /* MVPScheduleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D74A1F20A160002B6824 /* MVPScheduleModel.h */; };
+		C046D7B31F20A160002B6824 /* MVPScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D74B1F20A160002B6824 /* MVPScheduleModel.m */; };
+		C046D7B41F20A160002B6824 /* MVPScopeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D74C1F20A160002B6824 /* MVPScopeModel.h */; };
+		C046D7B51F20A160002B6824 /* MVPScopeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D74D1F20A160002B6824 /* MVPScopeModel.m */; };
+		C046D7B61F20A160002B6824 /* MVPWeekTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D74E1F20A160002B6824 /* MVPWeekTitleView.h */; };
+		C046D7B71F20A160002B6824 /* MVPWeekTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D74F1F20A160002B6824 /* MVPWeekTitleView.m */; };
+		C046D7B81F20A160002B6824 /* MVPYearCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7501F20A160002B6824 /* MVPYearCell.h */; };
+		C046D7B91F20A160002B6824 /* MVPYearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7511F20A160002B6824 /* MVPYearCell.m */; };
+		C046D7BA1F20A160002B6824 /* MVPYearRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7521F20A160002B6824 /* MVPYearRow.h */; };
+		C046D7BB1F20A160002B6824 /* MVPYearRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7531F20A160002B6824 /* MVPYearRow.m */; };
+		C046D7BC1F20A160002B6824 /* MVPYearSection.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7541F20A160002B6824 /* MVPYearSection.h */; };
+		C046D7BD1F20A160002B6824 /* MVPYearSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7551F20A160002B6824 /* MVPYearSection.m */; };
+		C046D7BE1F20A160002B6824 /* MVSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7561F20A160002B6824 /* MVSegmentControl.h */; };
+		C046D7BF1F20A160002B6824 /* MVSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7571F20A160002B6824 /* MVSegmentControl.m */; };
+		C046D7C01F20A160002B6824 /* MVSmoothSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7581F20A160002B6824 /* MVSmoothSegmentControl.h */; };
+		C046D7C11F20A160002B6824 /* MVSmoothSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7591F20A160002B6824 /* MVSmoothSegmentControl.m */; };
+		C046D7C21F20A160002B6824 /* MVTableBaseRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D75A1F20A160002B6824 /* MVTableBaseRow.h */; };
+		C046D7C31F20A160002B6824 /* MVTableBaseRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D75B1F20A160002B6824 /* MVTableBaseRow.m */; };
+		C046D7C41F20A160002B6824 /* MVTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D75C1F20A160002B6824 /* MVTableRow.h */; };
+		C046D7C51F20A160002B6824 /* MVTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D75D1F20A160002B6824 /* MVTableRow.m */; };
+		C046D7C61F20A160002B6824 /* MVTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D75E1F20A160002B6824 /* MVTableSection.h */; };
+		C046D7C71F20A160002B6824 /* MVTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D75F1F20A160002B6824 /* MVTableSection.m */; };
+		C046D7C81F20A160002B6824 /* MVTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7601F20A160002B6824 /* MVTableView.h */; };
+		C046D7C91F20A160002B6824 /* MVTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7611F20A160002B6824 /* MVTableView.m */; };
+		C046D7CA1F20A160002B6824 /* MVTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7621F20A160002B6824 /* MVTableViewDataSource.h */; };
+		C046D7CB1F20A160002B6824 /* MVTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7631F20A160002B6824 /* MVTableViewDataSource.m */; };
+		C046D7CC1F20A160002B6824 /* MVTableViewDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7641F20A160002B6824 /* MVTableViewDelegateProxy.h */; };
+		C046D7CD1F20A160002B6824 /* MVTableViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7651F20A160002B6824 /* MVTableViewDelegateProxy.m */; };
+		C046D7CE1F20A160002B6824 /* MVXibBasedTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7661F20A160002B6824 /* MVXibBasedTableRow.h */; };
+		C046D7CF1F20A160002B6824 /* MVXibBasedTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7671F20A160002B6824 /* MVXibBasedTableRow.m */; };
+		C046D7D01F20A160002B6824 /* NSArray+SHYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D7681F20A160002B6824 /* NSArray+SHYUtil.h */; };
+		C046D7D11F20A160002B6824 /* NSArray+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D7691F20A160002B6824 /* NSArray+SHYUtil.m */; };
+		C046D7D21F20A160002B6824 /* NSString+SHYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D76A1F20A160002B6824 /* NSString+SHYUtil.h */; };
+		C046D7D31F20A160002B6824 /* NSString+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D76B1F20A160002B6824 /* NSString+SHYUtil.m */; };
+		C046D7D41F20A160002B6824 /* UIColor+SHYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C046D76C1F20A160002B6824 /* UIColor+SHYUtil.h */; };
+		C046D7D51F20A160002B6824 /* UIColor+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C046D76D1F20A160002B6824 /* UIColor+SHYUtil.m */; };
 		C45843F01E84EF7B00D88C0B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45843EF1E84EF7B00D88C0B /* Info.plist */; };
-		C45843FC1E84F39100D88C0B /* WeexPluginCalendarModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C45843F61E84F39100D88C0B /* WeexPluginCalendarModule.h */; };
+		C45843FC1E84F39100D88C0B /* WeexPluginCalendarModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C45843F61E84F39100D88C0B /* WeexPluginCalendarModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C45843FD1E84F39100D88C0B /* WeexPluginCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C45843F71E84F39100D88C0B /* WeexPluginCalendarModule.m */; };
 /* End PBXBuildFile section */
 
@@ -122,111 +121,110 @@
 		0F1C92092FF9562A4B475501 /* Pods-WeexPluginCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexPluginCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexPluginCalendar/Pods-WeexPluginCalendar.debug.xcconfig"; sourceTree = "<group>"; };
 		5C9E50106ACA92665B6B1172 /* libPods-WeexPluginCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexPluginCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F9AEB97654FF7EEA032F16 /* Pods-WeexPluginCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexPluginCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexPluginCalendar/Pods-WeexPluginCalendar.release.xcconfig"; sourceTree = "<group>"; };
-		C03AD3151F16070500E2DA2B /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
-		C03AD3161F16070500E2DA2B /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
-		C03AD3171F16070500E2DA2B /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
-		C03AD3181F16070500E2DA2B /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
-		C03AD3191F16070500E2DA2B /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
-		C03AD31A1F16070500E2DA2B /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
-		C03AD31B1F16070500E2DA2B /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
-		C03AD31C1F16070500E2DA2B /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
-		C03AD31D1F16070500E2DA2B /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
-		C03AD31E1F16070500E2DA2B /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
-		C03AD31F1F16070500E2DA2B /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
-		C03AD3201F16070500E2DA2B /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
-		C03AD3211F16070500E2DA2B /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
-		C03AD3221F16070500E2DA2B /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
-		C03AD3231F16070500E2DA2B /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
-		C03AD3241F16070500E2DA2B /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
-		C03AD3251F16070500E2DA2B /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
-		C03AD3261F16070500E2DA2B /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
-		C03AD3271F16070500E2DA2B /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
-		C03AD3281F16070500E2DA2B /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
-		C03AD3291F16070500E2DA2B /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
-		C03AD32A1F16070500E2DA2B /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
-		C03AD32B1F16070500E2DA2B /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
-		C03AD32C1F16070500E2DA2B /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
-		C03AD32D1F16070500E2DA2B /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarScopeHandle.h; sourceTree = "<group>"; };
-		C03AD32E1F16070500E2DA2B /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarScopeHandle.m; sourceTree = "<group>"; };
-		C03AD32F1F16070500E2DA2B /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
-		C03AD3301F16070500E2DA2B /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
-		C03AD3311F16070500E2DA2B /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
-		C03AD3321F16070500E2DA2B /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
-		C03AD3331F16070500E2DA2B /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
-		C03AD3341F16070500E2DA2B /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
-		C03AD3361F16070500E2DA2B /* MVPCalendarConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarConfigModel.h; sourceTree = "<group>"; };
-		C03AD3371F16070500E2DA2B /* MVPCalendarConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarConfigModel.m; sourceTree = "<group>"; };
-		C03AD3381F16070500E2DA2B /* MVPCalendarResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarResultModel.h; sourceTree = "<group>"; };
-		C03AD3391F16070500E2DA2B /* MVPCalendarResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarResultModel.m; sourceTree = "<group>"; };
-		C03AD33A1F16070500E2DA2B /* MVPScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPScheduleModel.h; sourceTree = "<group>"; };
-		C03AD33B1F16070500E2DA2B /* MVPScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPScheduleModel.m; sourceTree = "<group>"; };
-		C03AD33C1F16070500E2DA2B /* MVPScopeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPScopeModel.h; sourceTree = "<group>"; };
-		C03AD33D1F16070500E2DA2B /* MVPScopeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPScopeModel.m; sourceTree = "<group>"; };
-		C03AD3401F16070500E2DA2B /* MVPCalendarCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarCustomViewController.h; sourceTree = "<group>"; };
-		C03AD3411F16070500E2DA2B /* MVPCalendarCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarCustomViewController.m; sourceTree = "<group>"; };
-		C03AD3421F16070500E2DA2B /* MVPCalendarMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarMonthViewController.h; sourceTree = "<group>"; };
-		C03AD3431F16070500E2DA2B /* MVPCalendarMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarMonthViewController.m; sourceTree = "<group>"; };
-		C03AD3441F16070500E2DA2B /* MVPCalendarRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarRootViewController.h; sourceTree = "<group>"; };
-		C03AD3451F16070500E2DA2B /* MVPCalendarRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarRootViewController.m; sourceTree = "<group>"; };
-		C03AD3481F16070500E2DA2B /* MVPCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarViewController.h; sourceTree = "<group>"; };
-		C03AD3491F16070500E2DA2B /* MVPCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarViewController.m; sourceTree = "<group>"; };
-		C03AD34A1F16070500E2DA2B /* MVPCalendarWeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarWeekViewController.h; sourceTree = "<group>"; };
-		C03AD34B1F16070500E2DA2B /* MVPCalendarWeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarWeekViewController.m; sourceTree = "<group>"; };
-		C03AD34C1F16070500E2DA2B /* MVPCalendarYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarYearViewController.h; sourceTree = "<group>"; };
-		C03AD34D1F16070500E2DA2B /* MVPCalendarYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarYearViewController.m; sourceTree = "<group>"; };
-		C03AD34E1F16070500E2DA2B /* MVPYearRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPYearRow.h; sourceTree = "<group>"; };
-		C03AD34F1F16070500E2DA2B /* MVPYearRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPYearRow.m; sourceTree = "<group>"; };
-		C03AD3511F16070500E2DA2B /* MVPCalendarDataSourceTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarDataSourceTools.h; sourceTree = "<group>"; };
-		C03AD3521F16070500E2DA2B /* MVPCalendarDataSourceTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarDataSourceTools.m; sourceTree = "<group>"; };
-		C03AD3551F16070500E2DA2B /* MVPCalendarTransformFestival.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarTransformFestival.h; sourceTree = "<group>"; };
-		C03AD3561F16070500E2DA2B /* MVPCalendarTransformFestival.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarTransformFestival.m; sourceTree = "<group>"; };
-		C03AD3581F16070500E2DA2B /* DIYCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYCalendarCell.h; sourceTree = "<group>"; };
-		C03AD3591F16070500E2DA2B /* DIYCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYCalendarCell.m; sourceTree = "<group>"; };
-		C03AD35A1F16070500E2DA2B /* MVPConfirmMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPConfirmMenuView.h; sourceTree = "<group>"; };
-		C03AD35B1F16070500E2DA2B /* MVPConfirmMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPConfirmMenuView.m; sourceTree = "<group>"; };
-		C03AD35C1F16070500E2DA2B /* MVPWeekTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPWeekTitleView.h; sourceTree = "<group>"; };
-		C03AD35D1F16070500E2DA2B /* MVPWeekTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPWeekTitleView.m; sourceTree = "<group>"; };
-		C03AD35E1F16070500E2DA2B /* MVPYearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPYearCell.h; sourceTree = "<group>"; };
-		C03AD35F1F16070500E2DA2B /* MVPYearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPYearCell.m; sourceTree = "<group>"; };
-		C03AD3601F16070500E2DA2B /* MVPYearCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVPYearCell.xib; sourceTree = "<group>"; };
-		C03AD3611F16070500E2DA2B /* MVPYearSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPYearSection.h; sourceTree = "<group>"; };
-		C03AD3621F16070500E2DA2B /* MVPYearSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPYearSection.m; sourceTree = "<group>"; };
-		C03AD3AE1F16083C00E2DA2B /* MVPCalenarConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalenarConfigModel.h; sourceTree = "<group>"; };
-		C03AD3AF1F16083C00E2DA2B /* MVPCalenarConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalenarConfigModel.m; sourceTree = "<group>"; };
-		C03AD3B21F160CBF00E2DA2B /* MVPCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCommonUtils.h; sourceTree = "<group>"; };
-		C03AD3B31F160CBF00E2DA2B /* MVPCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCommonUtils.m; sourceTree = "<group>"; };
-		C03AD3B71F160EF200E2DA2B /* MVBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVBaseTableViewCell.h; sourceTree = "<group>"; };
-		C03AD3B81F160EF200E2DA2B /* MVBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVBaseTableViewCell.m; sourceTree = "<group>"; };
-		C03AD3B91F160EF200E2DA2B /* MVNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVNode.h; sourceTree = "<group>"; };
-		C03AD3BA1F160EF200E2DA2B /* MVNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVNode.m; sourceTree = "<group>"; };
-		C03AD3BB1F160EF200E2DA2B /* MVPExtTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPExtTableRow.h; sourceTree = "<group>"; };
-		C03AD3BC1F160EF200E2DA2B /* MVPExtTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPExtTableRow.m; sourceTree = "<group>"; };
-		C03AD3BD1F160EF200E2DA2B /* MVTableBaseRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableBaseRow.h; sourceTree = "<group>"; };
-		C03AD3BE1F160EF200E2DA2B /* MVTableBaseRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableBaseRow.m; sourceTree = "<group>"; };
-		C03AD3BF1F160EF200E2DA2B /* MVTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableRow.h; sourceTree = "<group>"; };
-		C03AD3C01F160EF200E2DA2B /* MVTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableRow.m; sourceTree = "<group>"; };
-		C03AD3C11F160EF200E2DA2B /* MVTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableSection.h; sourceTree = "<group>"; };
-		C03AD3C21F160EF200E2DA2B /* MVTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableSection.m; sourceTree = "<group>"; };
-		C03AD3C31F160EF200E2DA2B /* MVTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableView.h; sourceTree = "<group>"; };
-		C03AD3C41F160EF200E2DA2B /* MVTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableView.m; sourceTree = "<group>"; };
-		C03AD3C51F160EF200E2DA2B /* MVTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableViewDataSource.h; sourceTree = "<group>"; };
-		C03AD3C61F160EF200E2DA2B /* MVTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableViewDataSource.m; sourceTree = "<group>"; };
-		C03AD3C71F160EF200E2DA2B /* MVTableViewDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableViewDelegateProxy.h; sourceTree = "<group>"; };
-		C03AD3C81F160EF200E2DA2B /* MVTableViewDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableViewDelegateProxy.m; sourceTree = "<group>"; };
-		C03AD3C91F160EF200E2DA2B /* MVXibBasedTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVXibBasedTableRow.h; sourceTree = "<group>"; };
-		C03AD3CA1F160EF200E2DA2B /* MVXibBasedTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVXibBasedTableRow.m; sourceTree = "<group>"; };
-		C03AD3DF1F16100F00E2DA2B /* NSArray+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SHYUtil.h"; sourceTree = "<group>"; };
-		C03AD3E01F16100F00E2DA2B /* NSArray+SHYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SHYUtil.m"; sourceTree = "<group>"; };
-		C03AD3E71F161A0E00E2DA2B /* MVPCalendarShadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarShadeView.h; sourceTree = "<group>"; };
-		C03AD3E81F161A0E00E2DA2B /* MVPCalendarShadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarShadeView.m; sourceTree = "<group>"; };
-		C03AD3EB1F161A7300E2DA2B /* UIColor+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SHYUtil.h"; sourceTree = "<group>"; };
-		C03AD3EC1F161A7300E2DA2B /* UIColor+SHYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SHYUtil.m"; sourceTree = "<group>"; };
-		C03AD3F01F17123900E2DA2B /* MVSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSegmentControl.h; sourceTree = "<group>"; };
-		C03AD3F11F17123900E2DA2B /* MVSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSegmentControl.m; sourceTree = "<group>"; };
-		C03AD3F21F17123900E2DA2B /* MVSmoothSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSmoothSegmentControl.h; sourceTree = "<group>"; };
-		C03AD3F31F17123900E2DA2B /* MVSmoothSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSmoothSegmentControl.m; sourceTree = "<group>"; };
-		C03AD5741F1768DC00E2DA2B /* NSString+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHYUtil.h"; sourceTree = "<group>"; };
-		C03AD5751F1768DC00E2DA2B /* NSString+SHYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHYUtil.m"; sourceTree = "<group>"; };
+		C046D7061F20A15F002B6824 /* DIYCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYCalendarCell.h; sourceTree = "<group>"; };
+		C046D7071F20A15F002B6824 /* DIYCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYCalendarCell.m; sourceTree = "<group>"; };
+		C046D7081F20A15F002B6824 /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		C046D7091F20A15F002B6824 /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		C046D70A1F20A15F002B6824 /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		C046D70B1F20A15F002B6824 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		C046D70C1F20A15F002B6824 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		C046D70D1F20A15F002B6824 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
+		C046D70E1F20A15F002B6824 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
+		C046D70F1F20A15F002B6824 /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		C046D7101F20A15F002B6824 /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		C046D7111F20A15F002B6824 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		C046D7121F20A15F002B6824 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		C046D7131F20A15F002B6824 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		C046D7141F20A15F002B6824 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		C046D7151F20A15F002B6824 /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
+		C046D7161F20A15F002B6824 /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
+		C046D7171F20A15F002B6824 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		C046D7181F20A15F002B6824 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		C046D7191F20A15F002B6824 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		C046D71A1F20A15F002B6824 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		C046D71B1F20A160002B6824 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		C046D71C1F20A160002B6824 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
+		C046D71D1F20A160002B6824 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
+		C046D71E1F20A160002B6824 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		C046D71F1F20A160002B6824 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		C046D7201F20A160002B6824 /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarScopeHandle.h; sourceTree = "<group>"; };
+		C046D7211F20A160002B6824 /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarScopeHandle.m; sourceTree = "<group>"; };
+		C046D7221F20A160002B6824 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		C046D7231F20A160002B6824 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		C046D7241F20A160002B6824 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		C046D7251F20A160002B6824 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		C046D7261F20A160002B6824 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		C046D7271F20A160002B6824 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		C046D7281F20A160002B6824 /* MVBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVBaseTableViewCell.h; sourceTree = "<group>"; };
+		C046D7291F20A160002B6824 /* MVBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVBaseTableViewCell.m; sourceTree = "<group>"; };
+		C046D72A1F20A160002B6824 /* MVNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVNode.h; sourceTree = "<group>"; };
+		C046D72B1F20A160002B6824 /* MVNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVNode.m; sourceTree = "<group>"; };
+		C046D72C1F20A160002B6824 /* MVPCalenarConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalenarConfigModel.h; sourceTree = "<group>"; };
+		C046D72D1F20A160002B6824 /* MVPCalenarConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalenarConfigModel.m; sourceTree = "<group>"; };
+		C046D72E1F20A160002B6824 /* MVPCalendarConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarConfigModel.h; sourceTree = "<group>"; };
+		C046D72F1F20A160002B6824 /* MVPCalendarConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarConfigModel.m; sourceTree = "<group>"; };
+		C046D7301F20A160002B6824 /* MVPCalendarCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarCustomViewController.h; sourceTree = "<group>"; };
+		C046D7311F20A160002B6824 /* MVPCalendarCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarCustomViewController.m; sourceTree = "<group>"; };
+		C046D7321F20A160002B6824 /* MVPCalendarDataSourceTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarDataSourceTools.h; sourceTree = "<group>"; };
+		C046D7331F20A160002B6824 /* MVPCalendarDataSourceTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarDataSourceTools.m; sourceTree = "<group>"; };
+		C046D7341F20A160002B6824 /* MVPCalendarMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarMonthViewController.h; sourceTree = "<group>"; };
+		C046D7351F20A160002B6824 /* MVPCalendarMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarMonthViewController.m; sourceTree = "<group>"; };
+		C046D7361F20A160002B6824 /* MVPCalendarResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarResultModel.h; sourceTree = "<group>"; };
+		C046D7371F20A160002B6824 /* MVPCalendarResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarResultModel.m; sourceTree = "<group>"; };
+		C046D7381F20A160002B6824 /* MVPCalendarRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarRootViewController.h; sourceTree = "<group>"; };
+		C046D7391F20A160002B6824 /* MVPCalendarRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarRootViewController.m; sourceTree = "<group>"; };
+		C046D73A1F20A160002B6824 /* MVPCalendarShadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarShadeView.h; sourceTree = "<group>"; };
+		C046D73B1F20A160002B6824 /* MVPCalendarShadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarShadeView.m; sourceTree = "<group>"; };
+		C046D73C1F20A160002B6824 /* MVPCalendarTransformFestival.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarTransformFestival.h; sourceTree = "<group>"; };
+		C046D73D1F20A160002B6824 /* MVPCalendarTransformFestival.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarTransformFestival.m; sourceTree = "<group>"; };
+		C046D73E1F20A160002B6824 /* MVPCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarViewController.h; sourceTree = "<group>"; };
+		C046D73F1F20A160002B6824 /* MVPCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarViewController.m; sourceTree = "<group>"; };
+		C046D7401F20A160002B6824 /* MVPCalendarWeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarWeekViewController.h; sourceTree = "<group>"; };
+		C046D7411F20A160002B6824 /* MVPCalendarWeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarWeekViewController.m; sourceTree = "<group>"; };
+		C046D7421F20A160002B6824 /* MVPCalendarYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarYearViewController.h; sourceTree = "<group>"; };
+		C046D7431F20A160002B6824 /* MVPCalendarYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarYearViewController.m; sourceTree = "<group>"; };
+		C046D7441F20A160002B6824 /* MVPCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCommonUtils.h; sourceTree = "<group>"; };
+		C046D7451F20A160002B6824 /* MVPCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCommonUtils.m; sourceTree = "<group>"; };
+		C046D7461F20A160002B6824 /* MVPConfirmMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPConfirmMenuView.h; sourceTree = "<group>"; };
+		C046D7471F20A160002B6824 /* MVPConfirmMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPConfirmMenuView.m; sourceTree = "<group>"; };
+		C046D7481F20A160002B6824 /* MVPExtTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPExtTableRow.h; sourceTree = "<group>"; };
+		C046D7491F20A160002B6824 /* MVPExtTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPExtTableRow.m; sourceTree = "<group>"; };
+		C046D74A1F20A160002B6824 /* MVPScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPScheduleModel.h; sourceTree = "<group>"; };
+		C046D74B1F20A160002B6824 /* MVPScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPScheduleModel.m; sourceTree = "<group>"; };
+		C046D74C1F20A160002B6824 /* MVPScopeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPScopeModel.h; sourceTree = "<group>"; };
+		C046D74D1F20A160002B6824 /* MVPScopeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPScopeModel.m; sourceTree = "<group>"; };
+		C046D74E1F20A160002B6824 /* MVPWeekTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPWeekTitleView.h; sourceTree = "<group>"; };
+		C046D74F1F20A160002B6824 /* MVPWeekTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPWeekTitleView.m; sourceTree = "<group>"; };
+		C046D7501F20A160002B6824 /* MVPYearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPYearCell.h; sourceTree = "<group>"; };
+		C046D7511F20A160002B6824 /* MVPYearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPYearCell.m; sourceTree = "<group>"; };
+		C046D7521F20A160002B6824 /* MVPYearRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPYearRow.h; sourceTree = "<group>"; };
+		C046D7531F20A160002B6824 /* MVPYearRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPYearRow.m; sourceTree = "<group>"; };
+		C046D7541F20A160002B6824 /* MVPYearSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPYearSection.h; sourceTree = "<group>"; };
+		C046D7551F20A160002B6824 /* MVPYearSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPYearSection.m; sourceTree = "<group>"; };
+		C046D7561F20A160002B6824 /* MVSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSegmentControl.h; sourceTree = "<group>"; };
+		C046D7571F20A160002B6824 /* MVSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSegmentControl.m; sourceTree = "<group>"; };
+		C046D7581F20A160002B6824 /* MVSmoothSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSmoothSegmentControl.h; sourceTree = "<group>"; };
+		C046D7591F20A160002B6824 /* MVSmoothSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSmoothSegmentControl.m; sourceTree = "<group>"; };
+		C046D75A1F20A160002B6824 /* MVTableBaseRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableBaseRow.h; sourceTree = "<group>"; };
+		C046D75B1F20A160002B6824 /* MVTableBaseRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableBaseRow.m; sourceTree = "<group>"; };
+		C046D75C1F20A160002B6824 /* MVTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableRow.h; sourceTree = "<group>"; };
+		C046D75D1F20A160002B6824 /* MVTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableRow.m; sourceTree = "<group>"; };
+		C046D75E1F20A160002B6824 /* MVTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableSection.h; sourceTree = "<group>"; };
+		C046D75F1F20A160002B6824 /* MVTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableSection.m; sourceTree = "<group>"; };
+		C046D7601F20A160002B6824 /* MVTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableView.h; sourceTree = "<group>"; };
+		C046D7611F20A160002B6824 /* MVTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableView.m; sourceTree = "<group>"; };
+		C046D7621F20A160002B6824 /* MVTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableViewDataSource.h; sourceTree = "<group>"; };
+		C046D7631F20A160002B6824 /* MVTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableViewDataSource.m; sourceTree = "<group>"; };
+		C046D7641F20A160002B6824 /* MVTableViewDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTableViewDelegateProxy.h; sourceTree = "<group>"; };
+		C046D7651F20A160002B6824 /* MVTableViewDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTableViewDelegateProxy.m; sourceTree = "<group>"; };
+		C046D7661F20A160002B6824 /* MVXibBasedTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVXibBasedTableRow.h; sourceTree = "<group>"; };
+		C046D7671F20A160002B6824 /* MVXibBasedTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVXibBasedTableRow.m; sourceTree = "<group>"; };
+		C046D7681F20A160002B6824 /* NSArray+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SHYUtil.h"; sourceTree = "<group>"; };
+		C046D7691F20A160002B6824 /* NSArray+SHYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SHYUtil.m"; sourceTree = "<group>"; };
+		C046D76A1F20A160002B6824 /* NSString+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHYUtil.h"; sourceTree = "<group>"; };
+		C046D76B1F20A160002B6824 /* NSString+SHYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHYUtil.m"; sourceTree = "<group>"; };
+		C046D76C1F20A160002B6824 /* UIColor+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SHYUtil.h"; sourceTree = "<group>"; };
+		C046D76D1F20A160002B6824 /* UIColor+SHYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SHYUtil.m"; sourceTree = "<group>"; };
 		C45843E41E84EF5B00D88C0B /* WeexPluginCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeexPluginCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45843EF1E84EF7B00D88C0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45843F61E84F39100D88C0B /* WeexPluginCalendarModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexPluginCalendarModule.h; sourceTree = "<group>"; };
@@ -253,166 +251,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C03AD3131F16070500E2DA2B /* Calendar */ = {
-			isa = PBXGroup;
-			children = (
-				C03AD3EF1F17123900E2DA2B /* SegmentUI */,
-				C03AD3B61F160EF200E2DA2B /* TableView */,
-				C03AD3141F16070500E2DA2B /* FSCalendar */,
-				C03AD3351F16070500E2DA2B /* Model */,
-				C03AD3441F16070500E2DA2B /* MVPCalendarRootViewController.h */,
-				C03AD3451F16070500E2DA2B /* MVPCalendarRootViewController.m */,
-				C03AD3481F16070500E2DA2B /* MVPCalendarViewController.h */,
-				C03AD3491F16070500E2DA2B /* MVPCalendarViewController.m */,
-				C03AD3401F16070500E2DA2B /* MVPCalendarCustomViewController.h */,
-				C03AD3411F16070500E2DA2B /* MVPCalendarCustomViewController.m */,
-				C03AD34A1F16070500E2DA2B /* MVPCalendarWeekViewController.h */,
-				C03AD34B1F16070500E2DA2B /* MVPCalendarWeekViewController.m */,
-				C03AD3421F16070500E2DA2B /* MVPCalendarMonthViewController.h */,
-				C03AD3431F16070500E2DA2B /* MVPCalendarMonthViewController.m */,
-				C03AD34C1F16070500E2DA2B /* MVPCalendarYearViewController.h */,
-				C03AD34D1F16070500E2DA2B /* MVPCalendarYearViewController.m */,
-				C03AD34E1F16070500E2DA2B /* MVPYearRow.h */,
-				C03AD34F1F16070500E2DA2B /* MVPYearRow.m */,
-				C03AD3501F16070500E2DA2B /* Tools */,
-				C03AD3571F16070500E2DA2B /* UI */,
-			);
-			path = Calendar;
-			sourceTree = "<group>";
-		};
-		C03AD3141F16070500E2DA2B /* FSCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				C03AD3151F16070500E2DA2B /* FSCalendar+Deprecated.m */,
-				C03AD3161F16070500E2DA2B /* FSCalendar.h */,
-				C03AD3171F16070500E2DA2B /* FSCalendar.m */,
-				C03AD3181F16070500E2DA2B /* FSCalendarAppearance.h */,
-				C03AD3191F16070500E2DA2B /* FSCalendarAppearance.m */,
-				C03AD31A1F16070500E2DA2B /* FSCalendarCalculator.h */,
-				C03AD31B1F16070500E2DA2B /* FSCalendarCalculator.m */,
-				C03AD31C1F16070500E2DA2B /* FSCalendarCell.h */,
-				C03AD31D1F16070500E2DA2B /* FSCalendarCell.m */,
-				C03AD31E1F16070500E2DA2B /* FSCalendarCollectionView.h */,
-				C03AD31F1F16070500E2DA2B /* FSCalendarCollectionView.m */,
-				C03AD3201F16070500E2DA2B /* FSCalendarCollectionViewLayout.h */,
-				C03AD3211F16070500E2DA2B /* FSCalendarCollectionViewLayout.m */,
-				C03AD3221F16070500E2DA2B /* FSCalendarConstants.h */,
-				C03AD3231F16070500E2DA2B /* FSCalendarConstants.m */,
-				C03AD3241F16070500E2DA2B /* FSCalendarDelegationFactory.h */,
-				C03AD3251F16070500E2DA2B /* FSCalendarDelegationFactory.m */,
-				C03AD3261F16070500E2DA2B /* FSCalendarDelegationProxy.h */,
-				C03AD3271F16070500E2DA2B /* FSCalendarDelegationProxy.m */,
-				C03AD3281F16070500E2DA2B /* FSCalendarDynamicHeader.h */,
-				C03AD3291F16070500E2DA2B /* FSCalendarExtensions.h */,
-				C03AD32A1F16070500E2DA2B /* FSCalendarExtensions.m */,
-				C03AD32B1F16070500E2DA2B /* FSCalendarHeaderView.h */,
-				C03AD32C1F16070500E2DA2B /* FSCalendarHeaderView.m */,
-				C03AD32D1F16070500E2DA2B /* FSCalendarScopeHandle.h */,
-				C03AD32E1F16070500E2DA2B /* FSCalendarScopeHandle.m */,
-				C03AD32F1F16070500E2DA2B /* FSCalendarStickyHeader.h */,
-				C03AD3301F16070500E2DA2B /* FSCalendarStickyHeader.m */,
-				C03AD3311F16070500E2DA2B /* FSCalendarTransitionCoordinator.h */,
-				C03AD3321F16070500E2DA2B /* FSCalendarTransitionCoordinator.m */,
-				C03AD3331F16070500E2DA2B /* FSCalendarWeekdayView.h */,
-				C03AD3341F16070500E2DA2B /* FSCalendarWeekdayView.m */,
-			);
-			path = FSCalendar;
-			sourceTree = "<group>";
-		};
-		C03AD3351F16070500E2DA2B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C03AD3361F16070500E2DA2B /* MVPCalendarConfigModel.h */,
-				C03AD3371F16070500E2DA2B /* MVPCalendarConfigModel.m */,
-				C03AD3381F16070500E2DA2B /* MVPCalendarResultModel.h */,
-				C03AD3391F16070500E2DA2B /* MVPCalendarResultModel.m */,
-				C03AD33A1F16070500E2DA2B /* MVPScheduleModel.h */,
-				C03AD33B1F16070500E2DA2B /* MVPScheduleModel.m */,
-				C03AD33C1F16070500E2DA2B /* MVPScopeModel.h */,
-				C03AD33D1F16070500E2DA2B /* MVPScopeModel.m */,
-				C03AD3AE1F16083C00E2DA2B /* MVPCalenarConfigModel.h */,
-				C03AD3AF1F16083C00E2DA2B /* MVPCalenarConfigModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C03AD3501F16070500E2DA2B /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				C03AD3DF1F16100F00E2DA2B /* NSArray+SHYUtil.h */,
-				C03AD3E01F16100F00E2DA2B /* NSArray+SHYUtil.m */,
-				C03AD5741F1768DC00E2DA2B /* NSString+SHYUtil.h */,
-				C03AD5751F1768DC00E2DA2B /* NSString+SHYUtil.m */,
-				C03AD3EB1F161A7300E2DA2B /* UIColor+SHYUtil.h */,
-				C03AD3EC1F161A7300E2DA2B /* UIColor+SHYUtil.m */,
-				C03AD3E71F161A0E00E2DA2B /* MVPCalendarShadeView.h */,
-				C03AD3E81F161A0E00E2DA2B /* MVPCalendarShadeView.m */,
-				C03AD3511F16070500E2DA2B /* MVPCalendarDataSourceTools.h */,
-				C03AD3521F16070500E2DA2B /* MVPCalendarDataSourceTools.m */,
-				C03AD3551F16070500E2DA2B /* MVPCalendarTransformFestival.h */,
-				C03AD3561F16070500E2DA2B /* MVPCalendarTransformFestival.m */,
-				C03AD3B21F160CBF00E2DA2B /* MVPCommonUtils.h */,
-				C03AD3B31F160CBF00E2DA2B /* MVPCommonUtils.m */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		C03AD3571F16070500E2DA2B /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				C03AD3581F16070500E2DA2B /* DIYCalendarCell.h */,
-				C03AD3591F16070500E2DA2B /* DIYCalendarCell.m */,
-				C03AD35A1F16070500E2DA2B /* MVPConfirmMenuView.h */,
-				C03AD35B1F16070500E2DA2B /* MVPConfirmMenuView.m */,
-				C03AD35C1F16070500E2DA2B /* MVPWeekTitleView.h */,
-				C03AD35D1F16070500E2DA2B /* MVPWeekTitleView.m */,
-				C03AD35E1F16070500E2DA2B /* MVPYearCell.h */,
-				C03AD35F1F16070500E2DA2B /* MVPYearCell.m */,
-				C03AD3601F16070500E2DA2B /* MVPYearCell.xib */,
-				C03AD3611F16070500E2DA2B /* MVPYearSection.h */,
-				C03AD3621F16070500E2DA2B /* MVPYearSection.m */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		C03AD3B61F160EF200E2DA2B /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				C03AD3B71F160EF200E2DA2B /* MVBaseTableViewCell.h */,
-				C03AD3B81F160EF200E2DA2B /* MVBaseTableViewCell.m */,
-				C03AD3B91F160EF200E2DA2B /* MVNode.h */,
-				C03AD3BA1F160EF200E2DA2B /* MVNode.m */,
-				C03AD3BB1F160EF200E2DA2B /* MVPExtTableRow.h */,
-				C03AD3BC1F160EF200E2DA2B /* MVPExtTableRow.m */,
-				C03AD3BD1F160EF200E2DA2B /* MVTableBaseRow.h */,
-				C03AD3BE1F160EF200E2DA2B /* MVTableBaseRow.m */,
-				C03AD3BF1F160EF200E2DA2B /* MVTableRow.h */,
-				C03AD3C01F160EF200E2DA2B /* MVTableRow.m */,
-				C03AD3C11F160EF200E2DA2B /* MVTableSection.h */,
-				C03AD3C21F160EF200E2DA2B /* MVTableSection.m */,
-				C03AD3C31F160EF200E2DA2B /* MVTableView.h */,
-				C03AD3C41F160EF200E2DA2B /* MVTableView.m */,
-				C03AD3C51F160EF200E2DA2B /* MVTableViewDataSource.h */,
-				C03AD3C61F160EF200E2DA2B /* MVTableViewDataSource.m */,
-				C03AD3C71F160EF200E2DA2B /* MVTableViewDelegateProxy.h */,
-				C03AD3C81F160EF200E2DA2B /* MVTableViewDelegateProxy.m */,
-				C03AD3C91F160EF200E2DA2B /* MVXibBasedTableRow.h */,
-				C03AD3CA1F160EF200E2DA2B /* MVXibBasedTableRow.m */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		C03AD3EF1F17123900E2DA2B /* SegmentUI */ = {
-			isa = PBXGroup;
-			children = (
-				C03AD3F01F17123900E2DA2B /* MVSegmentControl.h */,
-				C03AD3F11F17123900E2DA2B /* MVSegmentControl.m */,
-				C03AD3F21F17123900E2DA2B /* MVSmoothSegmentControl.h */,
-				C03AD3F31F17123900E2DA2B /* MVSmoothSegmentControl.m */,
-			);
-			path = SegmentUI;
-			sourceTree = "<group>";
-		};
 		C45843DA1E84EF5B00D88C0B = {
 			isa = PBXGroup;
 			children = (
@@ -435,7 +273,110 @@
 		C45843F11E84F39000D88C0B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C03AD3131F16070500E2DA2B /* Calendar */,
+				C046D7061F20A15F002B6824 /* DIYCalendarCell.h */,
+				C046D7071F20A15F002B6824 /* DIYCalendarCell.m */,
+				C046D7081F20A15F002B6824 /* FSCalendar.h */,
+				C046D7091F20A15F002B6824 /* FSCalendar.m */,
+				C046D70A1F20A15F002B6824 /* FSCalendar+Deprecated.m */,
+				C046D70B1F20A15F002B6824 /* FSCalendarAppearance.h */,
+				C046D70C1F20A15F002B6824 /* FSCalendarAppearance.m */,
+				C046D70D1F20A15F002B6824 /* FSCalendarCalculator.h */,
+				C046D70E1F20A15F002B6824 /* FSCalendarCalculator.m */,
+				C046D70F1F20A15F002B6824 /* FSCalendarCell.h */,
+				C046D7101F20A15F002B6824 /* FSCalendarCell.m */,
+				C046D7111F20A15F002B6824 /* FSCalendarCollectionView.h */,
+				C046D7121F20A15F002B6824 /* FSCalendarCollectionView.m */,
+				C046D7131F20A15F002B6824 /* FSCalendarCollectionViewLayout.h */,
+				C046D7141F20A15F002B6824 /* FSCalendarCollectionViewLayout.m */,
+				C046D7151F20A15F002B6824 /* FSCalendarConstants.h */,
+				C046D7161F20A15F002B6824 /* FSCalendarConstants.m */,
+				C046D7171F20A15F002B6824 /* FSCalendarDelegationFactory.h */,
+				C046D7181F20A15F002B6824 /* FSCalendarDelegationFactory.m */,
+				C046D7191F20A15F002B6824 /* FSCalendarDelegationProxy.h */,
+				C046D71A1F20A15F002B6824 /* FSCalendarDelegationProxy.m */,
+				C046D71B1F20A160002B6824 /* FSCalendarDynamicHeader.h */,
+				C046D71C1F20A160002B6824 /* FSCalendarExtensions.h */,
+				C046D71D1F20A160002B6824 /* FSCalendarExtensions.m */,
+				C046D71E1F20A160002B6824 /* FSCalendarHeaderView.h */,
+				C046D71F1F20A160002B6824 /* FSCalendarHeaderView.m */,
+				C046D7201F20A160002B6824 /* FSCalendarScopeHandle.h */,
+				C046D7211F20A160002B6824 /* FSCalendarScopeHandle.m */,
+				C046D7221F20A160002B6824 /* FSCalendarStickyHeader.h */,
+				C046D7231F20A160002B6824 /* FSCalendarStickyHeader.m */,
+				C046D7241F20A160002B6824 /* FSCalendarTransitionCoordinator.h */,
+				C046D7251F20A160002B6824 /* FSCalendarTransitionCoordinator.m */,
+				C046D7261F20A160002B6824 /* FSCalendarWeekdayView.h */,
+				C046D7271F20A160002B6824 /* FSCalendarWeekdayView.m */,
+				C046D7281F20A160002B6824 /* MVBaseTableViewCell.h */,
+				C046D7291F20A160002B6824 /* MVBaseTableViewCell.m */,
+				C046D72A1F20A160002B6824 /* MVNode.h */,
+				C046D72B1F20A160002B6824 /* MVNode.m */,
+				C046D72C1F20A160002B6824 /* MVPCalenarConfigModel.h */,
+				C046D72D1F20A160002B6824 /* MVPCalenarConfigModel.m */,
+				C046D72E1F20A160002B6824 /* MVPCalendarConfigModel.h */,
+				C046D72F1F20A160002B6824 /* MVPCalendarConfigModel.m */,
+				C046D7301F20A160002B6824 /* MVPCalendarCustomViewController.h */,
+				C046D7311F20A160002B6824 /* MVPCalendarCustomViewController.m */,
+				C046D7321F20A160002B6824 /* MVPCalendarDataSourceTools.h */,
+				C046D7331F20A160002B6824 /* MVPCalendarDataSourceTools.m */,
+				C046D7341F20A160002B6824 /* MVPCalendarMonthViewController.h */,
+				C046D7351F20A160002B6824 /* MVPCalendarMonthViewController.m */,
+				C046D7361F20A160002B6824 /* MVPCalendarResultModel.h */,
+				C046D7371F20A160002B6824 /* MVPCalendarResultModel.m */,
+				C046D7381F20A160002B6824 /* MVPCalendarRootViewController.h */,
+				C046D7391F20A160002B6824 /* MVPCalendarRootViewController.m */,
+				C046D73A1F20A160002B6824 /* MVPCalendarShadeView.h */,
+				C046D73B1F20A160002B6824 /* MVPCalendarShadeView.m */,
+				C046D73C1F20A160002B6824 /* MVPCalendarTransformFestival.h */,
+				C046D73D1F20A160002B6824 /* MVPCalendarTransformFestival.m */,
+				C046D73E1F20A160002B6824 /* MVPCalendarViewController.h */,
+				C046D73F1F20A160002B6824 /* MVPCalendarViewController.m */,
+				C046D7401F20A160002B6824 /* MVPCalendarWeekViewController.h */,
+				C046D7411F20A160002B6824 /* MVPCalendarWeekViewController.m */,
+				C046D7421F20A160002B6824 /* MVPCalendarYearViewController.h */,
+				C046D7431F20A160002B6824 /* MVPCalendarYearViewController.m */,
+				C046D7441F20A160002B6824 /* MVPCommonUtils.h */,
+				C046D7451F20A160002B6824 /* MVPCommonUtils.m */,
+				C046D7461F20A160002B6824 /* MVPConfirmMenuView.h */,
+				C046D7471F20A160002B6824 /* MVPConfirmMenuView.m */,
+				C046D7481F20A160002B6824 /* MVPExtTableRow.h */,
+				C046D7491F20A160002B6824 /* MVPExtTableRow.m */,
+				C046D74A1F20A160002B6824 /* MVPScheduleModel.h */,
+				C046D74B1F20A160002B6824 /* MVPScheduleModel.m */,
+				C046D74C1F20A160002B6824 /* MVPScopeModel.h */,
+				C046D74D1F20A160002B6824 /* MVPScopeModel.m */,
+				C046D74E1F20A160002B6824 /* MVPWeekTitleView.h */,
+				C046D74F1F20A160002B6824 /* MVPWeekTitleView.m */,
+				C046D7501F20A160002B6824 /* MVPYearCell.h */,
+				C046D7511F20A160002B6824 /* MVPYearCell.m */,
+				C046D7521F20A160002B6824 /* MVPYearRow.h */,
+				C046D7531F20A160002B6824 /* MVPYearRow.m */,
+				C046D7541F20A160002B6824 /* MVPYearSection.h */,
+				C046D7551F20A160002B6824 /* MVPYearSection.m */,
+				C046D7561F20A160002B6824 /* MVSegmentControl.h */,
+				C046D7571F20A160002B6824 /* MVSegmentControl.m */,
+				C046D7581F20A160002B6824 /* MVSmoothSegmentControl.h */,
+				C046D7591F20A160002B6824 /* MVSmoothSegmentControl.m */,
+				C046D75A1F20A160002B6824 /* MVTableBaseRow.h */,
+				C046D75B1F20A160002B6824 /* MVTableBaseRow.m */,
+				C046D75C1F20A160002B6824 /* MVTableRow.h */,
+				C046D75D1F20A160002B6824 /* MVTableRow.m */,
+				C046D75E1F20A160002B6824 /* MVTableSection.h */,
+				C046D75F1F20A160002B6824 /* MVTableSection.m */,
+				C046D7601F20A160002B6824 /* MVTableView.h */,
+				C046D7611F20A160002B6824 /* MVTableView.m */,
+				C046D7621F20A160002B6824 /* MVTableViewDataSource.h */,
+				C046D7631F20A160002B6824 /* MVTableViewDataSource.m */,
+				C046D7641F20A160002B6824 /* MVTableViewDelegateProxy.h */,
+				C046D7651F20A160002B6824 /* MVTableViewDelegateProxy.m */,
+				C046D7661F20A160002B6824 /* MVXibBasedTableRow.h */,
+				C046D7671F20A160002B6824 /* MVXibBasedTableRow.m */,
+				C046D7681F20A160002B6824 /* NSArray+SHYUtil.h */,
+				C046D7691F20A160002B6824 /* NSArray+SHYUtil.m */,
+				C046D76A1F20A160002B6824 /* NSString+SHYUtil.h */,
+				C046D76B1F20A160002B6824 /* NSString+SHYUtil.m */,
+				C046D76C1F20A160002B6824 /* UIColor+SHYUtil.h */,
+				C046D76D1F20A160002B6824 /* UIColor+SHYUtil.m */,
 				C45843F61E84F39100D88C0B /* WeexPluginCalendarModule.h */,
 				C45843F71E84F39100D88C0B /* WeexPluginCalendarModule.m */,
 			);
@@ -458,59 +399,59 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C03AD3CF1F160EF200E2DA2B /* MVPExtTableRow.h in Headers */,
-				C03AD36C1F16070500E2DA2B /* FSCalendarCollectionView.h in Headers */,
-				C03AD3971F16070500E2DA2B /* MVPCalendarWeekViewController.h in Headers */,
 				C45843FC1E84F39100D88C0B /* WeexPluginCalendarModule.h in Headers */,
-				C03AD3E91F161A0E00E2DA2B /* MVPCalendarShadeView.h in Headers */,
-				C03AD3B41F160CBF00E2DA2B /* MVPCommonUtils.h in Headers */,
-				C03AD3681F16070500E2DA2B /* FSCalendarCalculator.h in Headers */,
-				C03AD3701F16070500E2DA2B /* FSCalendarConstants.h in Headers */,
-				C03AD3641F16070500E2DA2B /* FSCalendar.h in Headers */,
-				C03AD3D11F160EF200E2DA2B /* MVTableBaseRow.h in Headers */,
-				C03AD3661F16070500E2DA2B /* FSCalendarAppearance.h in Headers */,
-				C03AD3891F16070500E2DA2B /* MVPScopeModel.h in Headers */,
-				C03AD3951F16070500E2DA2B /* MVPCalendarViewController.h in Headers */,
-				C03AD3811F16070500E2DA2B /* FSCalendarWeekdayView.h in Headers */,
-				C03AD3D51F160EF200E2DA2B /* MVTableSection.h in Headers */,
-				C03AD3D31F160EF200E2DA2B /* MVTableRow.h in Headers */,
-				C03AD3D71F160EF200E2DA2B /* MVTableView.h in Headers */,
-				C03AD3E31F16100F00E2DA2B /* NSArray+SHYUtil.h in Headers */,
-				C03AD37D1F16070500E2DA2B /* FSCalendarStickyHeader.h in Headers */,
-				C03AD3F61F17123900E2DA2B /* MVSmoothSegmentControl.h in Headers */,
-				C03AD3741F16070500E2DA2B /* FSCalendarDelegationProxy.h in Headers */,
-				C03AD3AC1F16070500E2DA2B /* MVPYearSection.h in Headers */,
-				C03AD3CD1F160EF200E2DA2B /* MVNode.h in Headers */,
-				C03AD39B1F16070500E2DA2B /* MVPYearRow.h in Headers */,
-				C03AD3A91F16070500E2DA2B /* MVPYearCell.h in Headers */,
-				C03AD36A1F16070500E2DA2B /* FSCalendarCell.h in Headers */,
-				C03AD3A71F16070500E2DA2B /* MVPWeekTitleView.h in Headers */,
-				C03AD3831F16070500E2DA2B /* MVPCalendarConfigModel.h in Headers */,
-				C03AD3CB1F160EF200E2DA2B /* MVBaseTableViewCell.h in Headers */,
-				C03AD39D1F16070500E2DA2B /* MVPCalendarDataSourceTools.h in Headers */,
-				C03AD3721F16070500E2DA2B /* FSCalendarDelegationFactory.h in Headers */,
-				C03AD3D91F160EF200E2DA2B /* MVTableViewDataSource.h in Headers */,
-				C03AD3761F16070500E2DA2B /* FSCalendarDynamicHeader.h in Headers */,
-				C03AD3851F16070500E2DA2B /* MVPCalendarResultModel.h in Headers */,
-				C03AD3991F16070500E2DA2B /* MVPCalendarYearViewController.h in Headers */,
-				C03AD3A51F16070500E2DA2B /* MVPConfirmMenuView.h in Headers */,
-				C03AD3F41F17123900E2DA2B /* MVSegmentControl.h in Headers */,
-				C03AD38F1F16070500E2DA2B /* MVPCalendarMonthViewController.h in Headers */,
-				C03AD3DB1F160EF200E2DA2B /* MVTableViewDelegateProxy.h in Headers */,
-				C03AD3A11F16070500E2DA2B /* MVPCalendarTransformFestival.h in Headers */,
-				C03AD37F1F16070500E2DA2B /* FSCalendarTransitionCoordinator.h in Headers */,
-				C03AD3791F16070500E2DA2B /* FSCalendarHeaderView.h in Headers */,
-				C03AD3DD1F160EF200E2DA2B /* MVXibBasedTableRow.h in Headers */,
-				C03AD36E1F16070500E2DA2B /* FSCalendarCollectionViewLayout.h in Headers */,
-				C03AD3B01F16083C00E2DA2B /* MVPCalenarConfigModel.h in Headers */,
-				C03AD38D1F16070500E2DA2B /* MVPCalendarCustomViewController.h in Headers */,
-				C03AD3911F16070500E2DA2B /* MVPCalendarRootViewController.h in Headers */,
-				C03AD3871F16070500E2DA2B /* MVPScheduleModel.h in Headers */,
-				C03AD5761F1768DC00E2DA2B /* NSString+SHYUtil.h in Headers */,
-				C03AD37B1F16070500E2DA2B /* FSCalendarScopeHandle.h in Headers */,
-				C03AD3ED1F161A7300E2DA2B /* UIColor+SHYUtil.h in Headers */,
-				C03AD3771F16070500E2DA2B /* FSCalendarExtensions.h in Headers */,
-				C03AD3A31F16070500E2DA2B /* DIYCalendarCell.h in Headers */,
+				C046D7831F20A160002B6824 /* FSCalendarDynamicHeader.h in Headers */,
+				C046D7B21F20A160002B6824 /* MVPScheduleModel.h in Headers */,
+				C046D7A21F20A160002B6824 /* MVPCalendarShadeView.h in Headers */,
+				C046D7B41F20A160002B6824 /* MVPScopeModel.h in Headers */,
+				C046D7901F20A160002B6824 /* MVBaseTableViewCell.h in Headers */,
+				C046D7941F20A160002B6824 /* MVPCalenarConfigModel.h in Headers */,
+				C046D7D41F20A160002B6824 /* UIColor+SHYUtil.h in Headers */,
+				C046D79A1F20A160002B6824 /* MVPCalendarDataSourceTools.h in Headers */,
+				C046D7B01F20A160002B6824 /* MVPExtTableRow.h in Headers */,
+				C046D7C21F20A160002B6824 /* MVTableBaseRow.h in Headers */,
+				C046D78A1F20A160002B6824 /* FSCalendarStickyHeader.h in Headers */,
+				C046D7881F20A160002B6824 /* FSCalendarScopeHandle.h in Headers */,
+				C046D7BE1F20A160002B6824 /* MVSegmentControl.h in Headers */,
+				C046D77D1F20A160002B6824 /* FSCalendarConstants.h in Headers */,
+				C046D7C61F20A160002B6824 /* MVTableSection.h in Headers */,
+				C046D7C41F20A160002B6824 /* MVTableRow.h in Headers */,
+				C046D7C81F20A160002B6824 /* MVTableView.h in Headers */,
+				C046D7D01F20A160002B6824 /* NSArray+SHYUtil.h in Headers */,
+				C046D7751F20A160002B6824 /* FSCalendarCalculator.h in Headers */,
+				C046D7701F20A160002B6824 /* FSCalendar.h in Headers */,
+				C046D78E1F20A160002B6824 /* FSCalendarWeekdayView.h in Headers */,
+				C046D79E1F20A160002B6824 /* MVPCalendarResultModel.h in Headers */,
+				C046D7A61F20A160002B6824 /* MVPCalendarViewController.h in Headers */,
+				C046D7A41F20A160002B6824 /* MVPCalendarTransformFestival.h in Headers */,
+				C046D76E1F20A160002B6824 /* DIYCalendarCell.h in Headers */,
+				C046D79C1F20A160002B6824 /* MVPCalendarMonthViewController.h in Headers */,
+				C046D7811F20A160002B6824 /* FSCalendarDelegationProxy.h in Headers */,
+				C046D7AA1F20A160002B6824 /* MVPCalendarYearViewController.h in Headers */,
+				C046D7BA1F20A160002B6824 /* MVPYearRow.h in Headers */,
+				C046D7B81F20A160002B6824 /* MVPYearCell.h in Headers */,
+				C046D7B61F20A160002B6824 /* MVPWeekTitleView.h in Headers */,
+				C046D7CA1F20A160002B6824 /* MVTableViewDataSource.h in Headers */,
+				C046D7AE1F20A160002B6824 /* MVPConfirmMenuView.h in Headers */,
+				C046D78C1F20A160002B6824 /* FSCalendarTransitionCoordinator.h in Headers */,
+				C046D77B1F20A160002B6824 /* FSCalendarCollectionViewLayout.h in Headers */,
+				C046D7961F20A160002B6824 /* MVPCalendarConfigModel.h in Headers */,
+				C046D7791F20A160002B6824 /* FSCalendarCollectionView.h in Headers */,
+				C046D7A01F20A160002B6824 /* MVPCalendarRootViewController.h in Headers */,
+				C046D7CC1F20A160002B6824 /* MVTableViewDelegateProxy.h in Headers */,
+				C046D7A81F20A160002B6824 /* MVPCalendarWeekViewController.h in Headers */,
+				C046D7841F20A160002B6824 /* FSCalendarExtensions.h in Headers */,
+				C046D7AC1F20A160002B6824 /* MVPCommonUtils.h in Headers */,
+				C046D7CE1F20A160002B6824 /* MVXibBasedTableRow.h in Headers */,
+				C046D7731F20A160002B6824 /* FSCalendarAppearance.h in Headers */,
+				C046D77F1F20A160002B6824 /* FSCalendarDelegationFactory.h in Headers */,
+				C046D7981F20A160002B6824 /* MVPCalendarCustomViewController.h in Headers */,
+				C046D7C01F20A160002B6824 /* MVSmoothSegmentControl.h in Headers */,
+				C046D7BC1F20A160002B6824 /* MVPYearSection.h in Headers */,
+				C046D7771F20A160002B6824 /* FSCalendarCell.h in Headers */,
+				C046D7D21F20A160002B6824 /* NSString+SHYUtil.h in Headers */,
+				C046D7861F20A160002B6824 /* FSCalendarHeaderView.h in Headers */,
+				C046D7921F20A160002B6824 /* MVNode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,7 +515,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C03AD3AB1F16070500E2DA2B /* MVPYearCell.xib in Resources */,
 				C45843F01E84EF7B00D88C0B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,59 +559,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C03AD37A1F16070500E2DA2B /* FSCalendarHeaderView.m in Sources */,
-				C03AD3A21F16070500E2DA2B /* MVPCalendarTransformFestival.m in Sources */,
-				C03AD37E1F16070500E2DA2B /* FSCalendarStickyHeader.m in Sources */,
-				C03AD3DA1F160EF200E2DA2B /* MVTableViewDataSource.m in Sources */,
-				C03AD3981F16070500E2DA2B /* MVPCalendarWeekViewController.m in Sources */,
-				C03AD3901F16070500E2DA2B /* MVPCalendarMonthViewController.m in Sources */,
-				C03AD3DC1F160EF200E2DA2B /* MVTableViewDelegateProxy.m in Sources */,
-				C03AD3881F16070500E2DA2B /* MVPScheduleModel.m in Sources */,
-				C03AD39A1F16070500E2DA2B /* MVPCalendarYearViewController.m in Sources */,
-				C03AD3781F16070500E2DA2B /* FSCalendarExtensions.m in Sources */,
-				C03AD3B51F160CBF00E2DA2B /* MVPCommonUtils.m in Sources */,
-				C03AD39C1F16070500E2DA2B /* MVPYearRow.m in Sources */,
-				C03AD3EA1F161A0E00E2DA2B /* MVPCalendarShadeView.m in Sources */,
-				C03AD36B1F16070500E2DA2B /* FSCalendarCell.m in Sources */,
-				C03AD3751F16070500E2DA2B /* FSCalendarDelegationProxy.m in Sources */,
-				C03AD3961F16070500E2DA2B /* MVPCalendarViewController.m in Sources */,
-				C03AD3A61F16070500E2DA2B /* MVPConfirmMenuView.m in Sources */,
-				C03AD3EE1F161A7300E2DA2B /* UIColor+SHYUtil.m in Sources */,
-				C03AD3F51F17123900E2DA2B /* MVSegmentControl.m in Sources */,
-				C03AD3A41F16070500E2DA2B /* DIYCalendarCell.m in Sources */,
-				C03AD3821F16070500E2DA2B /* FSCalendarWeekdayView.m in Sources */,
-				C03AD3F71F17123900E2DA2B /* MVSmoothSegmentControl.m in Sources */,
-				C03AD3A81F16070500E2DA2B /* MVPWeekTitleView.m in Sources */,
-				C03AD3711F16070500E2DA2B /* FSCalendarConstants.m in Sources */,
-				C03AD36D1F16070500E2DA2B /* FSCalendarCollectionView.m in Sources */,
-				C03AD3B11F16083C00E2DA2B /* MVPCalenarConfigModel.m in Sources */,
-				C03AD3AA1F16070500E2DA2B /* MVPYearCell.m in Sources */,
-				C03AD38A1F16070500E2DA2B /* MVPScopeModel.m in Sources */,
-				C03AD3DE1F160EF200E2DA2B /* MVXibBasedTableRow.m in Sources */,
-				C03AD3D41F160EF200E2DA2B /* MVTableRow.m in Sources */,
-				C03AD38E1F16070500E2DA2B /* MVPCalendarCustomViewController.m in Sources */,
-				C03AD3D21F160EF200E2DA2B /* MVTableBaseRow.m in Sources */,
-				C03AD5771F1768DC00E2DA2B /* NSString+SHYUtil.m in Sources */,
-				C03AD3D01F160EF200E2DA2B /* MVPExtTableRow.m in Sources */,
-				C03AD3731F16070500E2DA2B /* FSCalendarDelegationFactory.m in Sources */,
-				C03AD3E41F16100F00E2DA2B /* NSArray+SHYUtil.m in Sources */,
-				C03AD3AD1F16070500E2DA2B /* MVPYearSection.m in Sources */,
-				C03AD3671F16070500E2DA2B /* FSCalendarAppearance.m in Sources */,
-				C03AD3691F16070500E2DA2B /* FSCalendarCalculator.m in Sources */,
-				C03AD3921F16070500E2DA2B /* MVPCalendarRootViewController.m in Sources */,
-				C03AD3841F16070500E2DA2B /* MVPCalendarConfigModel.m in Sources */,
-				C03AD3801F16070500E2DA2B /* FSCalendarTransitionCoordinator.m in Sources */,
-				C03AD37C1F16070500E2DA2B /* FSCalendarScopeHandle.m in Sources */,
+				C046D7BF1F20A160002B6824 /* MVSegmentControl.m in Sources */,
+				C046D7871F20A160002B6824 /* FSCalendarHeaderView.m in Sources */,
+				C046D76F1F20A160002B6824 /* DIYCalendarCell.m in Sources */,
+				C046D7CB1F20A160002B6824 /* MVTableViewDataSource.m in Sources */,
+				C046D7C11F20A160002B6824 /* MVSmoothSegmentControl.m in Sources */,
+				C046D7B31F20A160002B6824 /* MVPScheduleModel.m in Sources */,
+				C046D7CD1F20A160002B6824 /* MVTableViewDelegateProxy.m in Sources */,
+				C046D7AF1F20A160002B6824 /* MVPConfirmMenuView.m in Sources */,
+				C046D7A31F20A160002B6824 /* MVPCalendarShadeView.m in Sources */,
+				C046D7891F20A160002B6824 /* FSCalendarScopeHandle.m in Sources */,
+				C046D7D31F20A160002B6824 /* NSString+SHYUtil.m in Sources */,
+				C046D7781F20A160002B6824 /* FSCalendarCell.m in Sources */,
+				C046D7931F20A160002B6824 /* MVNode.m in Sources */,
+				C046D7801F20A160002B6824 /* FSCalendarDelegationFactory.m in Sources */,
+				C046D7BD1F20A160002B6824 /* MVPYearSection.m in Sources */,
+				C046D7A91F20A160002B6824 /* MVPCalendarWeekViewController.m in Sources */,
+				C046D7821F20A160002B6824 /* FSCalendarDelegationProxy.m in Sources */,
+				C046D78B1F20A160002B6824 /* FSCalendarStickyHeader.m in Sources */,
+				C046D7B51F20A160002B6824 /* MVPScopeModel.m in Sources */,
+				C046D7B71F20A160002B6824 /* MVPWeekTitleView.m in Sources */,
+				C046D7A51F20A160002B6824 /* MVPCalendarTransformFestival.m in Sources */,
+				C046D79F1F20A160002B6824 /* MVPCalendarResultModel.m in Sources */,
+				C046D78D1F20A160002B6824 /* FSCalendarTransitionCoordinator.m in Sources */,
+				C046D7911F20A160002B6824 /* MVBaseTableViewCell.m in Sources */,
+				C046D7721F20A160002B6824 /* FSCalendar+Deprecated.m in Sources */,
+				C046D7991F20A160002B6824 /* MVPCalendarCustomViewController.m in Sources */,
+				C046D7D51F20A160002B6824 /* UIColor+SHYUtil.m in Sources */,
+				C046D7971F20A160002B6824 /* MVPCalendarConfigModel.m in Sources */,
+				C046D7CF1F20A160002B6824 /* MVXibBasedTableRow.m in Sources */,
+				C046D7C51F20A160002B6824 /* MVTableRow.m in Sources */,
+				C046D77C1F20A160002B6824 /* FSCalendarCollectionViewLayout.m in Sources */,
+				C046D7C31F20A160002B6824 /* MVTableBaseRow.m in Sources */,
+				C046D78F1F20A160002B6824 /* FSCalendarWeekdayView.m in Sources */,
+				C046D7B11F20A160002B6824 /* MVPExtTableRow.m in Sources */,
+				C046D7D11F20A160002B6824 /* NSArray+SHYUtil.m in Sources */,
+				C046D7761F20A160002B6824 /* FSCalendarCalculator.m in Sources */,
+				C046D79B1F20A160002B6824 /* MVPCalendarDataSourceTools.m in Sources */,
+				C046D7AD1F20A160002B6824 /* MVPCommonUtils.m in Sources */,
+				C046D7BB1F20A160002B6824 /* MVPYearRow.m in Sources */,
 				C45843FD1E84F39100D88C0B /* WeexPluginCalendarModule.m in Sources */,
-				C03AD3861F16070500E2DA2B /* MVPCalendarResultModel.m in Sources */,
-				C03AD3CC1F160EF200E2DA2B /* MVBaseTableViewCell.m in Sources */,
-				C03AD3631F16070500E2DA2B /* FSCalendar+Deprecated.m in Sources */,
-				C03AD3D61F160EF200E2DA2B /* MVTableSection.m in Sources */,
-				C03AD36F1F16070500E2DA2B /* FSCalendarCollectionViewLayout.m in Sources */,
-				C03AD3651F16070500E2DA2B /* FSCalendar.m in Sources */,
-				C03AD3D81F160EF200E2DA2B /* MVTableView.m in Sources */,
-				C03AD3CE1F160EF200E2DA2B /* MVNode.m in Sources */,
-				C03AD39E1F16070500E2DA2B /* MVPCalendarDataSourceTools.m in Sources */,
+				C046D77E1F20A160002B6824 /* FSCalendarConstants.m in Sources */,
+				C046D7AB1F20A160002B6824 /* MVPCalendarYearViewController.m in Sources */,
+				C046D7711F20A160002B6824 /* FSCalendar.m in Sources */,
+				C046D7741F20A160002B6824 /* FSCalendarAppearance.m in Sources */,
+				C046D77A1F20A160002B6824 /* FSCalendarCollectionView.m in Sources */,
+				C046D79D1F20A160002B6824 /* MVPCalendarMonthViewController.m in Sources */,
+				C046D7851F20A160002B6824 /* FSCalendarExtensions.m in Sources */,
+				C046D7C71F20A160002B6824 /* MVTableSection.m in Sources */,
+				C046D7A11F20A160002B6824 /* MVPCalendarRootViewController.m in Sources */,
+				C046D7A71F20A160002B6824 /* MVPCalendarViewController.m in Sources */,
+				C046D7C91F20A160002B6824 /* MVTableView.m in Sources */,
+				C046D7B91F20A160002B6824 /* MVPYearCell.m in Sources */,
+				C046D7951F20A160002B6824 /* MVPCalenarConfigModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,13 +725,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.WeexPluginCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -806,13 +747,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.WeexPluginCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
