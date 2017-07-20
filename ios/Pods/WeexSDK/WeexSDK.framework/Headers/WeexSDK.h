@@ -36,7 +36,6 @@
 #import "WXPrerenderManager.h"
 #import "WXNetworkProtocol.h"
 #import "WXNavigationProtocol.h"
-#import "WXNativeInstance.h"
 #import "WXMonitor.h"
 #import "WXModuleProtocol.h"
 #import "WXModalUIModule.h"
