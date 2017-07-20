@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/GHHX/AliWeexPluginWheelCalendar.git", :tag => "0.0.1" }
   s.source_files  = "ios/Sources/*.{h,m}"
-  s.framework  = "UIKit"
+  s.framework  = "UIKit","Foundation"
   s.dependency "WeexPluginLoader"
   s.dependency "WeexSDK"
   s.dependency "Masonry"

@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 SHYFramework. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
 #define SHY_RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a/255.0]
 
 #define SHY_RGB(r, g, b) SHY_RGBA(r, g, b, 255.0)

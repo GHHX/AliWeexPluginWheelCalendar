@@ -6,8 +6,8 @@
 //  Copyright © 2017年 moviepro. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
 typedef NS_ENUM(NSUInteger, MVPCalendarShadeType) {
     MVPShadeTypeTop = 0,
     MVPShadeTypeMiddle,

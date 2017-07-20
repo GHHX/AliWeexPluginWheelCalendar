@@ -8,7 +8,6 @@
 
 #import "WeexPluginCalendarModule.h"
 #import <WeexPluginLoader/WeexPluginLoader.h>
-#import "NSDictionary+SHYUtil.h"
 #import "MVPCalendarConfigModel.h"
 #import "MVPCalendarDataSourceTools.h"
 #import "MVPCalenarConfigModel.h"
@@ -24,10 +23,10 @@ WX_EXPORT_METHOD(@selector(startCalendar:callbackOk:callbackCancel:))
     if (![date isKindOfClass:[NSDictionary class]]) {
         return;
     }
-    NSArray *headersJson = [date shy_arrayForKey:@"headers"];
-    NSDictionary *dateJson = [date shy_dictionaryForKey:@"currentModel"];
+    NSArray *headersJson = [date objectForKey:@"headers"];
+    NSDictionary *dateJson = [date objectForKey:@"currentModel"];
     MVPCalendarConfigModel *model = [MVPCalendarDataSourceTools assembleDataSourceWithHeader:headersJson dateJson:dateJson];
-    NSDictionary *bizConfigDic = [date shy_dictionaryForKey:@"config"];
+    NSDictionary *bizConfigDic = [date objectForKey:@"config"];
     if (bizConfigDic) {
         MVPCalenarConfigModel *bizConfigModel = [[MVPCalenarConfigModel alloc] initWithDictionary:bizConfigDic];
         model.bizConfigModel = bizConfigModel;

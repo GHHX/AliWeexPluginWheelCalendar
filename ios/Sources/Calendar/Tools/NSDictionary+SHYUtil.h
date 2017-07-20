@@ -6,7 +6,9 @@
 //  Copyright (c) 2015年 SHYFramework. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 
 @interface NSDictionary (SHYUtil)
 
