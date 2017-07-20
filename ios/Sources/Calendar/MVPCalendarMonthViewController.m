@@ -18,7 +18,6 @@
 #import "MVTableView.h"
 #import <Masonry/Masonry.h>
 #import "UIColor+SHYUtil.h"
-#import "NSDictionary+SHYUtil.h"
 #import "NSArray+SHYUtil.h"
 
 @interface MVPCalendarMonthViewController ()<UITableViewDelegate>
@@ -321,7 +320,7 @@
             [self.calendarDataSource addSection:section];
             for (long j = _targetMonth;j > 0 ;j--) {
                 MVPYearRow *row = [[MVPYearRow alloc] init];
-                if (_skipFirstMonth != 1 && j == _targetMonth && (_targetYear - i) == [nowInfo shy_longForKey:@"year"]) {
+                if (_skipFirstMonth != 1 && j == _targetMonth && (_targetYear - i) == [[nowInfo objectForKey:@"year"] longValue]) {
                     [row setYearContent:[NSString stringWithFormat:@"%ld月 本月",j]];
                 }else{
                     [row setYearContent:[NSString stringWithFormat:@"%ld月",j]];
@@ -335,7 +334,7 @@
             [self.calendarDataSource addSection:section];
             for (long j = 12;j > 0;j--) {
                 MVPYearRow *row = [[MVPYearRow alloc] init];
-                if (_skipFirstMonth != 1 && j == _targetMonth && (_targetYear - i) == [nowInfo shy_longForKey:@"year"]) {
+                if (_skipFirstMonth != 1 && j == _targetMonth && (_targetYear - i) == [[nowInfo objectForKey:@"year"] longValue]) {
                     [row setYearContent:[NSString stringWithFormat:@"%ld月 本月",j]];
                 }else{
                     [row setYearContent:[NSString stringWithFormat:@"%ld月",j]];
@@ -353,8 +352,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSDictionary *dateInfo = [MVPCommonUtils getDateInfo:[NSDate date]];
-    _targetYear = [dateInfo shy_longForKey:@"year"];
-    _targetMonth = [dateInfo shy_longForKey:@"month"];
+    _targetYear = [[dateInfo objectForKey:@"year"] longValue];
+    _targetMonth = [[dateInfo objectForKey:@"month"] longValue];
 }
 
 - (void)didReceiveMemoryWarning {

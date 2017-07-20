@@ -19,7 +19,6 @@
 #import <Masonry/Masonry.h>
 #import "UIColor+SHYUtil.h"
 #import "NSArray+SHYUtil.h"
-#import "NSDictionary+SHYUtil.h"
 
 @interface MVPCalendarWeekViewController ()<UITableViewDelegate>
 
@@ -320,7 +319,7 @@
             for (NSInteger j = _targetWeek;j > 0;j--) {
                 MVPYearRow *row = [[MVPYearRow alloc] init];
                 NSMutableDictionary *weekDic = [weeks objectAtIndex:(weeks.count - j)];
-                if (_skipFirstWeek != 1 && j == _targetWeek && (_targetYear - i) == [nowInfo shy_longForKey:@"year"]) {
+                if (_skipFirstWeek != 1 && j == _targetWeek && (_targetYear - i) == [[nowInfo objectForKey:@"year"] longValue]) {
                     [row setYearContent:[NSString stringWithFormat:@"%@  本周",[weekDic objectForKey:@"result"]]];
                 }else{
                     [row setYearContent:[NSString stringWithFormat:@"%@",[weekDic objectForKey:@"result"]]];
@@ -336,7 +335,7 @@
             [self.calendarDataSource addSection:section];
             for (NSMutableDictionary *weekDic in [MVPCommonUtils getWeeksByLastYear:(_targetYear - i)]) {
                 MVPYearRow *row = [[MVPYearRow alloc] init];
-                if (_skipFirstWeek != 1 && i == [MVPCommonUtils getNowWeek] && (_targetYear - i) == [nowInfo shy_longForKey:@"year"]) {
+                if (_skipFirstWeek != 1 && i == [MVPCommonUtils getNowWeek] && (_targetYear - i) == [[nowInfo objectForKey:@"year"] longValue]) {
                     [row setYearContent:[NSString stringWithFormat:@"%@  本周",[weekDic objectForKey:@"result"]]];
                 }else{
                     [row setYearContent:[NSString stringWithFormat:@"%@",[weekDic objectForKey:@"result"]]];
@@ -355,7 +354,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSDictionary *dateInfo = [MVPCommonUtils getDateInfo:[NSDate date]];
-    _targetYear = [dateInfo shy_longForKey:@"year"];
+    _targetYear = [[dateInfo objectForKey:@"year"] longValue];
     _targetWeek = [MVPCommonUtils getNowWeek];
     // Do any additional setup after loading the view.
     
@@ -526,18 +525,18 @@
         startModel.month = [[fweekDic objectForKey:@"startMonth"] longValue];
         startModel.day = [[fweekDic objectForKey:@"startDay"] longValue];
         
-        endModel.year = [eweekDic shy_longForKey:@"endyear"];
+        endModel.year = [[eweekDic objectForKey:@"endyear"] longValue];
         endModel.week = [[eweekDic objectForKey:@"weekNum"] longValue];
         endModel.month = [[eweekDic objectForKey:@"endmonth"] longValue];
         endModel.day = [[eweekDic objectForKey:@"endday"] longValue];
-        endModel.weekYear = [eweekDic shy_longForKey:@"startyear"];
+        endModel.weekYear = [[eweekDic objectForKey:@"startyear"] longValue];
     }else{
         startModel.year = _targetYear - fselectIndexPath.section;
         startModel.week = [[fweekDic objectForKey:@"weekNum"] longValue];
         startModel.month = [[fweekDic objectForKey:@"startMonth"] longValue];
         startModel.day = [[fweekDic objectForKey:@"startDay"] longValue];
         
-        endModel.year = [eweekDic shy_longForKey:@"endyear"];
+        endModel.year = [[eweekDic objectForKey:@"endyear"] longValue];
         endModel.week = [[fweekDic objectForKey:@"weekNum"] longValue];
         endModel.month = [[fweekDic objectForKey:@"endmonth"] longValue];
         endModel.day = [[fweekDic objectForKey:@"endday"] longValue];

@@ -103,8 +103,6 @@
 		C03AD3DE1F160EF200E2DA2B /* MVXibBasedTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3CA1F160EF200E2DA2B /* MVXibBasedTableRow.m */; };
 		C03AD3E31F16100F00E2DA2B /* NSArray+SHYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3DF1F16100F00E2DA2B /* NSArray+SHYUtil.h */; };
 		C03AD3E41F16100F00E2DA2B /* NSArray+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3E01F16100F00E2DA2B /* NSArray+SHYUtil.m */; };
-		C03AD3E51F16100F00E2DA2B /* NSDictionary+SHYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3E11F16100F00E2DA2B /* NSDictionary+SHYUtil.h */; };
-		C03AD3E61F16100F00E2DA2B /* NSDictionary+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3E21F16100F00E2DA2B /* NSDictionary+SHYUtil.m */; };
 		C03AD3E91F161A0E00E2DA2B /* MVPCalendarShadeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3E71F161A0E00E2DA2B /* MVPCalendarShadeView.h */; };
 		C03AD3EA1F161A0E00E2DA2B /* MVPCalendarShadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03AD3E81F161A0E00E2DA2B /* MVPCalendarShadeView.m */; };
 		C03AD3ED1F161A7300E2DA2B /* UIColor+SHYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C03AD3EB1F161A7300E2DA2B /* UIColor+SHYUtil.h */; };
@@ -219,8 +217,6 @@
 		C03AD3CA1F160EF200E2DA2B /* MVXibBasedTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVXibBasedTableRow.m; sourceTree = "<group>"; };
 		C03AD3DF1F16100F00E2DA2B /* NSArray+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SHYUtil.h"; sourceTree = "<group>"; };
 		C03AD3E01F16100F00E2DA2B /* NSArray+SHYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SHYUtil.m"; sourceTree = "<group>"; };
-		C03AD3E11F16100F00E2DA2B /* NSDictionary+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SHYUtil.h"; sourceTree = "<group>"; };
-		C03AD3E21F16100F00E2DA2B /* NSDictionary+SHYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SHYUtil.m"; sourceTree = "<group>"; };
 		C03AD3E71F161A0E00E2DA2B /* MVPCalendarShadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPCalendarShadeView.h; sourceTree = "<group>"; };
 		C03AD3E81F161A0E00E2DA2B /* MVPCalendarShadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPCalendarShadeView.m; sourceTree = "<group>"; };
 		C03AD3EB1F161A7300E2DA2B /* UIColor+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SHYUtil.h"; sourceTree = "<group>"; };
@@ -343,16 +339,14 @@
 		C03AD3501F16070500E2DA2B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C03AD3DF1F16100F00E2DA2B /* NSArray+SHYUtil.h */,
+				C03AD3E01F16100F00E2DA2B /* NSArray+SHYUtil.m */,
 				C03AD5741F1768DC00E2DA2B /* NSString+SHYUtil.h */,
 				C03AD5751F1768DC00E2DA2B /* NSString+SHYUtil.m */,
 				C03AD3EB1F161A7300E2DA2B /* UIColor+SHYUtil.h */,
 				C03AD3EC1F161A7300E2DA2B /* UIColor+SHYUtil.m */,
 				C03AD3E71F161A0E00E2DA2B /* MVPCalendarShadeView.h */,
 				C03AD3E81F161A0E00E2DA2B /* MVPCalendarShadeView.m */,
-				C03AD3DF1F16100F00E2DA2B /* NSArray+SHYUtil.h */,
-				C03AD3E01F16100F00E2DA2B /* NSArray+SHYUtil.m */,
-				C03AD3E11F16100F00E2DA2B /* NSDictionary+SHYUtil.h */,
-				C03AD3E21F16100F00E2DA2B /* NSDictionary+SHYUtil.m */,
 				C03AD3511F16070500E2DA2B /* MVPCalendarDataSourceTools.h */,
 				C03AD3521F16070500E2DA2B /* MVPCalendarDataSourceTools.m */,
 				C03AD3551F16070500E2DA2B /* MVPCalendarTransformFestival.h */,
@@ -473,7 +467,6 @@
 				C03AD3681F16070500E2DA2B /* FSCalendarCalculator.h in Headers */,
 				C03AD3701F16070500E2DA2B /* FSCalendarConstants.h in Headers */,
 				C03AD3641F16070500E2DA2B /* FSCalendar.h in Headers */,
-				C03AD3E51F16100F00E2DA2B /* NSDictionary+SHYUtil.h in Headers */,
 				C03AD3D11F160EF200E2DA2B /* MVTableBaseRow.h in Headers */,
 				C03AD3661F16070500E2DA2B /* FSCalendarAppearance.h in Headers */,
 				C03AD3891F16070500E2DA2B /* MVPScopeModel.h in Headers */,
@@ -666,7 +659,6 @@
 				C03AD3671F16070500E2DA2B /* FSCalendarAppearance.m in Sources */,
 				C03AD3691F16070500E2DA2B /* FSCalendarCalculator.m in Sources */,
 				C03AD3921F16070500E2DA2B /* MVPCalendarRootViewController.m in Sources */,
-				C03AD3E61F16100F00E2DA2B /* NSDictionary+SHYUtil.m in Sources */,
 				C03AD3841F16070500E2DA2B /* MVPCalendarConfigModel.m in Sources */,
 				C03AD3801F16070500E2DA2B /* FSCalendarTransitionCoordinator.m in Sources */,
 				C03AD37C1F16070500E2DA2B /* FSCalendarScopeHandle.m in Sources */,

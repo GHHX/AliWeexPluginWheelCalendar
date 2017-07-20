@@ -8,7 +8,6 @@
 
 #import "MVPCalendarDataSourceTools.h"
 #import "MVPCalendarConfigModel.h"
-#import "NSDictionary+SHYUtil.h"
 #import "NSArray+SHYUtil.h"
 
 @implementation MVPCalendarDataSourceTools
@@ -16,72 +15,72 @@
 + (MVPCalendarConfigModel *)assembleDataSourceWithHeader:(NSArray *)headersJson dateJson:(NSDictionary *)dateJson{
     
     MVPCalendarConfigModel *model = [[MVPCalendarConfigModel alloc] init];
-    model.selectType = [dateJson shy_longForKey:@"type"];
-    NSDictionary *startDic = [dateJson shy_dictionaryForKey:@"start"];
-    NSDictionary *endDic = [dateJson shy_dictionaryForKey:@"end"];
+    model.selectType = [[dateJson objectForKey:@"type"] longValue];
+    NSDictionary *startDic = [dateJson objectForKey:@"start"];
+    NSDictionary *endDic = [dateJson objectForKey:@"end"];
     
     MVPCalendarResultModel *selModel = [[MVPCalendarResultModel alloc] init];
     MVPCalendarModel *startModel  = [[MVPCalendarModel alloc] init];
-    startModel.year = [startDic shy_longForKey:@"year"];
-    startModel.week = [startDic shy_longForKey:@"week"];
-    startModel.month = [startDic shy_longForKey:@"month"];
-    startModel.day = [startDic shy_longForKey:@"day"];
-    startModel.periodYear = [startDic shy_longForKey:@"periodYear"];
-    startModel.weekYear = [startDic shy_longForKey:@"weekYear"];
+    startModel.year = [[startDic objectForKey:@"year"] longValue];
+    startModel.week = [[startDic objectForKey:@"week"] longValue];
+    startModel.month = [[startDic objectForKey:@"month"] longValue];
+    startModel.day = [[startDic objectForKey:@"day"] longValue];
+    startModel.periodYear = [[startDic objectForKey:@"periodYear"] longValue];
+    startModel.weekYear = [[startDic objectForKey:@"weekYear"] longValue];
     selModel.startModel = startModel;
     MVPCalendarModel *endModel  = [[MVPCalendarModel alloc] init];
-    endModel.year = [endDic shy_longForKey:@"year"];
-    endModel.week = [endDic shy_longForKey:@"week"];
-    endModel.month = [endDic shy_longForKey:@"month"];
-    endModel.day = [endDic shy_longForKey:@"day"];
-    endModel.periodYear = [endDic shy_longForKey:@"periodYear"];
-    endModel.weekYear = [endDic shy_longForKey:@"weekYear"];
+    endModel.year = [[endDic objectForKey:@"year"] longValue];
+    endModel.week = [[endDic objectForKey:@"week"] longValue];
+    endModel.month = [[endDic objectForKey:@"month"] longValue];
+    endModel.day = [[endDic objectForKey:@"day"] longValue];
+    endModel.periodYear = [[endDic objectForKey:@"periodYear"] longValue];
+    endModel.weekYear = [[endDic objectForKey:@"weekYear"] longValue];
     selModel.endModel = endModel;
-    selModel.type = [dateJson shy_longForKey:@"type"];
+    selModel.type = [[dateJson objectForKey:@"type"] longValue];
     model.selModel = selModel;
     
     NSMutableArray *configArray = [NSMutableArray array];
     for (NSDictionary *configDic in headersJson) {
-        if ([configDic shy_longForKey:@"type"] == CalendarTypeDay) {
+        if ([[configDic objectForKey:@"type"] longValue] == CalendarTypeDay) {
             CalendarConfigModel *dayConfig = [[CalendarConfigModel alloc] init];
             dayConfig.type = CalendarTypeDay;
-            dayConfig.title = [configDic shy_stringForKey:@"name"]?[configDic shy_stringForKey:@"name"]:@"日票房";
-            dayConfig.isMult = [configDic shy_intForKey:@"mode"];
-            dayConfig.maxUnit = [configDic shy_intForKey:@"maxUnit"];
+            dayConfig.title = [configDic objectForKey:@"name"]?[configDic objectForKey:@"name"]:@"日票房";
+            dayConfig.isMult = [[configDic objectForKey:@"mode"] intValue];
+            dayConfig.maxUnit = [[configDic objectForKey:@"maxUnit"] intValue];
             
             [configArray addObject:dayConfig];
             
-        }else if ([configDic shy_longForKey:@"type"] == CalendarTypeWeek){
+        }else if ([[configDic objectForKey:@"type"] longValue] == CalendarTypeWeek){
             CalendarConfigModel *weekConfig = [[CalendarConfigModel alloc] init];
             weekConfig.type = CalendarTypeWeek;
-            weekConfig.title = [configDic shy_stringForKey:@"name"]?[configDic shy_stringForKey:@"name"]:@"周票房";
-            weekConfig.isMult = [configDic shy_intForKey:@"mode"];
-            weekConfig.maxUnit = [configDic shy_intForKey:@"maxUnit"];
+            weekConfig.title = [configDic objectForKey:@"name"]?[configDic objectForKey:@"name"]:@"周票房";
+            weekConfig.isMult = [[configDic objectForKey:@"mode"] intValue];
+            weekConfig.maxUnit = [[configDic objectForKey:@"maxUnit"] intValue];
             
             [configArray addObject:weekConfig];
-        }else if ([configDic shy_longForKey:@"type"] == CalendarTypeMonth){
+        }else if ([[configDic objectForKey:@"type"] longValue] == CalendarTypeMonth){
             CalendarConfigModel *monthConfig = [[CalendarConfigModel alloc] init];
             monthConfig.type = CalendarTypeMonth;
-            monthConfig.title = [configDic shy_stringForKey:@"name"]?[configDic shy_stringForKey:@"name"]:@"月票房";
-            monthConfig.isMult = [configDic shy_intForKey:@"mode"];
-            monthConfig.maxUnit = [configDic shy_intForKey:@"maxUnit"];
+            monthConfig.title = [configDic objectForKey:@"name"]?[configDic objectForKey:@"name"]:@"月票房";
+            monthConfig.isMult = [[configDic objectForKey:@"mode"] intValue];
+            monthConfig.maxUnit = [[configDic objectForKey:@"maxUnit"] intValue];
             
             [configArray addObject:monthConfig];
-        }else if ([configDic shy_longForKey:@"type"] == CalendarTypeYear){
+        }else if ([[configDic objectForKey:@"type"] longValue] == CalendarTypeYear){
             CalendarConfigModel *yearConfig = [[CalendarConfigModel alloc] init];
             yearConfig.type = CalendarTypeYear;
-            yearConfig.title = [configDic shy_stringForKey:@"name"]?[configDic shy_stringForKey:@"name"]:@"年票房";
-            yearConfig.isMult = [configDic shy_intForKey:@"mode"];
-            yearConfig.maxUnit = [configDic shy_intForKey:@"maxUnit"];
+            yearConfig.title = [configDic objectForKey:@"name"]?[configDic objectForKey:@"name"]:@"年票房";
+            yearConfig.isMult = [[configDic objectForKey:@"mode"] intValue];
+            yearConfig.maxUnit = [[configDic objectForKey:@"maxUnit"] intValue];
             
             [configArray addObject:yearConfig];
-        }else if ([configDic shy_longForKey:@"type"] == CalendarTypeCustom){
+        }else if ([[configDic objectForKey:@"type"] longValue] == CalendarTypeCustom){
             
             CalendarConfigModel *customConfig = [[CalendarConfigModel alloc] init];
             customConfig.type = CalendarTypeCustom;
-            customConfig.title = [configDic shy_stringForKey:@"name"]?[configDic shy_stringForKey:@"name"]:@"自定义";
-            customConfig.isMult = [configDic shy_intForKey:@"mode"];
-            customConfig.maxUnit = [configDic shy_intForKey:@"maxUnit"];
+            customConfig.title = [configDic objectForKey:@"name"]?[configDic objectForKey:@"name"]:@"自定义";
+            customConfig.isMult = [[configDic objectForKey:@"mode"] intValue];
+            customConfig.maxUnit = [[configDic objectForKey:@"maxUnit"] intValue];
             
             [configArray addObject:customConfig];
         }

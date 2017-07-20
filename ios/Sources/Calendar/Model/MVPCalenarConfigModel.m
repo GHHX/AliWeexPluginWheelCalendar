@@ -7,7 +7,6 @@
 //
 
 #import "MVPCalenarConfigModel.h"
-#import "NSDictionary+SHYUtil.h"
 
 @implementation MVPCalenarConfigModel
 - (instancetype)initWithDefaultData{
@@ -27,21 +26,21 @@
 - (instancetype)initWithDictionary:(NSDictionary *)dic{
     self = [super init];
     if (self) {
-        _maxDays = [dic shy_longForKey:@"maxDays"];
-        _maxMoths = [dic shy_longForKey:@"maxMoths"];
-        _maxWeeks = [dic shy_longForKey:@"maxWeeks"];
-        _maxYears = [dic shy_longForKey:@"maxYears"];
-        _presaleForRange = [dic shy_boolForKey:@"presaleForRange"];
-        _presaleForSingle = [dic shy_boolForKey:@"presaleForSingle"];
-        _singleDayDelta = [dic shy_intForKey:@"singleDayDelta"];
-        _rangeDayDelta = [dic shy_intForKey:@"rangeDayDelta"];
-        _weekDelta = [dic shy_intForKey:@"weekDelta"];
-        _monthDelta = [dic shy_intForKey:@"monthDelta"];
-        _yearDelta = [dic shy_intForKey:@"yearDelta"];
-        _periodDelta = [dic shy_intForKey:@"periodDelta"];
-        _currentTs = [dic shy_longLongForKey:@"currentTs"];
-        _isSkipFirstDay = [dic shy_integerForKey:@"isSkipFirstDay"];
-        _startDate = [dic shy_stringForKey:@"startDate"];
+        _maxDays = [[dic objectForKey:@"maxDays"] longValue];
+        _maxMoths = [[dic objectForKey:@"maxMoths"] longValue];
+        _maxWeeks = [[dic objectForKey:@"maxWeeks"] longValue];
+        _maxYears = [[dic objectForKey:@"maxYears"] longValue];
+        _presaleForRange = [[dic objectForKey:@"presaleForRange"] boolValue];
+        _presaleForSingle = [[dic objectForKey:@"presaleForSingle"] boolValue];
+        _singleDayDelta = [[dic objectForKey:@"singleDayDelta"] intValue];
+        _rangeDayDelta = [[dic objectForKey:@"rangeDayDelta"] intValue];
+        _weekDelta = [[dic objectForKey:@"weekDelta"] intValue];
+        _monthDelta = [[dic objectForKey:@"monthDelta"] intValue];
+        _yearDelta = [[dic objectForKey:@"yearDelta"] intValue];
+        _periodDelta = [[dic objectForKey:@"periodDelta"] intValue];
+        _currentTs = [[dic objectForKey:@"currentTs"] longLongValue];
+        _isSkipFirstDay = [[dic objectForKey:@"isSkipFirstDay"] integerValue];
+        _startDate = [dic objectForKey:@"startDate"];
     }
     return self;
 }

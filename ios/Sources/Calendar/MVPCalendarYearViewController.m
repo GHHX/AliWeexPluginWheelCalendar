@@ -17,7 +17,6 @@
 #import "MVTableView.h"
 #import <Masonry/Masonry.h>
 #import "NSArray+SHYUtil.h"
-#import "NSDictionary+SHYUtil.h"
 #import "MVPCommonUtils.h"
 
 @interface MVPCalendarYearViewController ()<UITableViewDelegate>
@@ -85,7 +84,7 @@
     long yearDiff = _targetYear - _baseYear + 1;
     NSMutableDictionary *nowInfo = [MVPCommonUtils getDateInfo:[NSDate date]];
     for (int i = 0; i < yearDiff; i++) {
-        if (_skipFirstYear != 1 && (_targetYear - i) == [nowInfo shy_longForKey:@"year"]) {
+        if (_skipFirstYear != 1 && (_targetYear - i) == [[nowInfo objectForKey:@"year"] longValue]) {
             [yearArray addObject:[NSString stringWithFormat:@"%ld 年 本年",_targetYear - i]];
         }else{
             [yearArray addObject:[NSString stringWithFormat:@"%ld 年",_targetYear - i]];
@@ -203,7 +202,7 @@
     // Do any additional setup after loading the view.
    
     NSDictionary *dateInfo = [MVPCommonUtils getDateInfo:[NSDate date]];
-    _targetYear = [dateInfo shy_longForKey:@"year"];
+    _targetYear = [[dateInfo objectForKey:@"year"] longValue];
     
 }
 
